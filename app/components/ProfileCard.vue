@@ -12,6 +12,8 @@ interface Profile {
 defineProps<{
   profile: Profile;
 }>();
+
+const imageError = ref(false);
 </script>
 
 <template>
@@ -24,7 +26,10 @@ defineProps<{
         <div class="relative shrink-0">
           <div
             class="w-12 h-12 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center overflow-hidden">
-            <span class="text-xl font-bold text-slate-400 dark:text-slate-500 font-mono">
+            <img v-if="!imageError"
+              src="https://gravatar.com/avatar/231052d9886a9b17f0b7bb94f7c6aa2bce2724974bb8ce6791a971a1e3ca8d3c?v=1741910840000&size=256&d=404"
+              alt="Avatar" class="w-full h-full object-cover" @error="imageError = true" />
+            <span v-else class="text-xl font-bold text-slate-400 dark:text-slate-500 font-mono">
               {{ profile.name.charAt(0) }}
             </span>
           </div>
