@@ -20,17 +20,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: "Muhamad Rizki - Experienced Software Engineer",
+      viewport:
+        "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+      charset: "utf-8",
       htmlAttrs: {
         lang: "en",
         class: "dark",
       },
-      meta: [
-        {
-          name: "viewport",
-          content:
-            "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
-        },
-      ],
     },
   },
   pwa: {
