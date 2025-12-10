@@ -1,0 +1,580 @@
+{
+  "profile": {
+    "id": "1",
+    "name": "Rizki",
+    "title": "Software Engineer",
+    "bio": "Software Engineer specializing in web and mobile app development. Bachelor of Information Technology graduate, fast learner, and open source enthusiast.",
+    "email": "contact@byrizki.com",
+    "location": "Jakarta, Indonesia",
+    "created_at": "2023-01-01T00:00:00Z",
+    "updated_at": "2025-12-10T00:00:00Z"
+  },
+  "social_links": [
+    {
+      "id": "1",
+      "platform": "GitHub",
+      "url": "https://github.com/byrizki",
+      "icon": "github",
+      "display_order": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/mrizki",
+      "icon": "linkedin",
+      "display_order": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "platform": "Discord",
+      "url": "https://discord.com/users/400490852381753366",
+      "icon": "discord",
+      "display_order": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "platform": "WhatsApp",
+      "url": "https://wa.me/6289613604287",
+      "icon": "whatsapp",
+      "display_order": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "React Native Android Shadow",
+      "description": "Library providing consistent shadow API between iOS and Android platforms.",
+      "image_url": "/projects/rn-android-shadow.png",
+      "project_type": "Open Source",
+      "technologies": ["React Native", "Android", "Java"],
+      "demo_url": null,
+      "github_url": "https://github.com/vesselsoft/react-native-android-shadow",
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Metro Minify Obfuscator",
+      "description": "React Native bundler enhancement for code obfuscation.",
+      "image_url": "/projects/metro-minifier.png",
+      "project_type": "Open Source",
+      "technologies": ["React Native", "Metro Bundler"],
+      "demo_url": null,
+      "github_url": "https://github.com/vesselsoft/metro-minify-obfuscator",
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "JSON Eval Rs",
+      "description": "Blazing-fast JSON Logic evaluator built in Rust with 80+ operators. Comprehensive operator documentation, multiple language bindings, and deployment guides.",
+      "image_url": "/projects/jsoneval-rs.png",
+      "project_type": "Open Source",
+      "technologies": ["Rust", "JSON Logic", "React Native", "Node.js", ".NET"],
+      "demo_url": null,
+      "github_url": "https://github.com/byrizki/jsoneval-rs",
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "RustO!",
+      "description": "A Pure Rust OCR Library - Fast, Safe, and Cross-Platform (React Native, .NET). Built based on PaddleOCR and MNN for Inference Engine",
+      "image_url": "/projects/rusto.png",
+      "project_type": "Open Source",
+      "technologies": ["Rust", "OCR", "React Native", ".NET"],
+      "demo_url": null,
+      "github_url": "https://github.com/byrizki/rusto-rs",
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "byMadu",
+      "description": "byMADU is a personal finance application built with Next.js that helps users and their teams monitor wallet balances, transactions, budgets, and installments in a unified dashboard. The application combines modern authentication, real-time data management, and a responsive interface to simplify everyday financial decision-making.",
+      "image_url": "/projects/bymadu.png",
+      "project_type": "Open Source",
+      "technologies": ["Personal Finance", "Web Apps"],
+      "demo_url": "https://madu.refind.id",
+      "github_url": "https://github.com/byrizki/madu-finance",
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "JSON Form Demo App",
+      "description": "A project used by PT. Quadrant Synergy International clients to preview dynamic forms created based on JSON schema. I was responsible for developing the JSON-based dynamic form framework using Node.js and the demo application using Next.js.",
+      "image_url": "/projects/jsonform-demoapp.png",
+      "project_type": "Web App",
+      "technologies": ["NextJS", "Node.js", "JSON Schema"],
+      "demo_url": null,
+      "github_url": null,
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": true,
+      "display_order": 3,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Quadrant Appcenter",
+      "description": "A project for releasing mobile applications for internal development at PT Quadrant Synergy International. I was responsible for developing the application from building apps to releasing them to Appcenter.",
+      "image_url": "/projects/quadrant-appcenter.png",
+      "project_type": "Web App",
+      "technologies": ["React", "React Native", "AppCenter"],
+      "demo_url": null,
+      "github_url": null,
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": true,
+      "display_order": 4,
+      "created_at": "2023-06-01T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "SIDARLING Project",
+      "description": "An application project for a university thesis used to manage waste processing and recording at PT. PLN. I was responsible for developing the Frontend application using NextJS and Backend using PHP.",
+      "image_url": "/projects/sidarling-project.png",
+      "project_type": "Web App",
+      "technologies": ["NextJS", "PHP", "Tailwind CSS"],
+      "demo_url": null,
+      "github_url": null,
+      "playstore_url": null,
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 5,
+      "created_at": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "STIAMI Mobile",
+      "description": "A mobile apps that used by STIAMI Students to access their academic information. I was responsible for the mobile apps development that using React Native.",
+      "image_url": "/projects/stiami-mobile.png",
+      "project_type": "Mobile App",
+      "technologies": ["React Native", "Mobile Apps"],
+      "demo_url": "https://www.stiami.ac.id",
+      "github_url": null,
+      "playstore_url": "https://play.google.com/store/apps/details?id=id.ac.stiami.mobilesystem",
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 6,
+      "created_at": "2020-01-01T00:00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "LP3I Mobile Services",
+      "description": "A mobile apps that used by LP3I Students and Lecturers to access their academic information. I was responsible for the fullstack development of this app. Using PHP CodeIgniter as Backend and Native Java Android for Frontend",
+      "image_url": "/projects/lp3i-mobile.png",
+      "project_type": "Mobile App",
+      "technologies": ["Android", "PHP", "CodeIgniter"],
+      "demo_url": "https://www.lp3i.ac.id",
+      "github_url": null,
+      "playstore_url": "https://play.google.com/store/apps/details?id=id.ac.lp3i.lp3icollege",
+      "appstore_url": null,
+      "featured": false,
+      "display_order": 7,
+      "created_at": "2018-01-01T00:00:00Z"
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "company": "PT. Quadrant Synergy International",
+      "role": "Research & Development Leader",
+      "start_date": "2022-06-01T00:00:00Z",
+      "end_date": null,
+      "description": "Lead technology exploration and innovation. Evaluated and implemented new technologies to enhance project capabilities.",
+      "logo": "/projects/qsi.png",
+      "location": "Indonesia",
+      "display_order": 1,
+      "created_at": "2022-06-01T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "company": "PT. Metamesta Internasional Teknologi (Platon)",
+      "role": "Part-time Software Engineer",
+      "start_date": "2023-08-01T00:00:00Z",
+      "end_date": null,
+      "description": "Remote working as a Software Engineer. Participated and Developed various fullstack applications using React Native, NextJS, NodeJS, Prisma, Vercel, and other technologies.",
+      "logo": "/projects/platon.webp",
+      "location": "Indonesia",
+      "display_order": 1,
+      "created_at": "2022-06-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "company": "PT. Quadrant Synergy International",
+      "role": "IT Full Stack Developer",
+      "start_date": "2021-04-01T00:00:00Z",
+      "end_date": "2022-06-01T00:00:00Z",
+      "description": "Developed full-stack solutions using C# .NET backend and React Native frontend for company projects.",
+      "logo": "/projects/qsi.png",
+      "location": "Indonesia",
+      "display_order": 2,
+      "created_at": "2021-04-01T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "company": "PT. Quadrant Synergy International",
+      "role": "IT Mobile Developer",
+      "start_date": "2018-03-01T00:00:00Z",
+      "end_date": "2022-04-01T00:00:00Z",
+      "description": "Built hybrid mobile applications using React Native for various company projects.",
+      "logo": "/projects/qsi.png",
+      "location": "Indonesia",
+      "display_order": 3,
+      "created_at": "2018-03-01T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "company": "Central Office of LP3I",
+      "role": "IT Mobile Developer",
+      "start_date": "2017-02-01T00:00:00Z",
+      "end_date": "2018-03-01T00:00:00Z",
+      "description": "Developed Android mobile applications using native Android Java.",
+      "logo": "/projects/lp3i.png",
+      "location": "Jakarta, Indonesia",
+      "display_order": 4,
+      "created_at": "2017-02-01T00:00:00Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "react-native",
+      "name": "React Native",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "html",
+      "name": "HTML",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "category": "Backend",
+      "level": "Advanced"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "category": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "id": "dotnet",
+      "name": ".NET",
+      "category": "Backend",
+      "level": "Advanced"
+    },
+    {
+      "id": "php",
+      "name": "PHP",
+      "category": "Backend",
+      "level": "Advanced"
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "category": "Backend",
+      "level": "Advanced"
+    },
+    {
+      "id": "codeigniter",
+      "name": "CodeIgniter",
+      "category": "Backend",
+      "level": "Advanced"
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "Backend",
+      "level": "Advanced"
+    },
+    {
+      "id": "react-native-mobile",
+      "name": "React Native",
+      "category": "Mobile",
+      "level": "Expert"
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "category": "Mobile",
+      "level": "Intermediate"
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "category": "Mobile",
+      "level": "Intermediate"
+    },
+    {
+      "id": "objective-c",
+      "name": "Objective-C",
+      "category": "Mobile",
+      "level": "Intermediate"
+    },
+    {
+      "id": "android-java",
+      "name": "Android Java",
+      "category": "Mobile",
+      "level": "Advanced"
+    },
+    {
+      "id": "mssql",
+      "name": "MSSQL",
+      "category": "Database",
+      "level": "Advanced"
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "category": "Database",
+      "level": "Advanced"
+    },
+    {
+      "id": "sqlite",
+      "name": "SQLite",
+      "category": "Database",
+      "level": "Advanced"
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "category": "Database",
+      "level": "Intermediate"
+    },
+    {
+      "id": "couchdb",
+      "name": "CouchDB",
+      "category": "Database",
+      "level": "Intermediate"
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "category": "Database",
+      "level": "Intermediate"
+    },
+    {
+      "id": "nhibernate",
+      "name": "NHibernate",
+      "category": "Database",
+      "level": "Intermediate"
+    },
+    {
+      "id": "typeorm",
+      "name": "TypeORM",
+      "category": "Database",
+      "level": "Intermediate"
+    },
+    {
+      "id": "drizzle",
+      "name": "Drizzle",
+      "category": "Database",
+      "level": "Intermediate"
+    },
+    {
+      "id": "jest",
+      "name": "Jest",
+      "category": "Testing",
+      "level": "Intermediate"
+    },
+    {
+      "id": "xunit",
+      "name": "xUnit",
+      "category": "Testing",
+      "level": "Intermediate"
+    },
+    {
+      "id": "detox",
+      "name": "Detox",
+      "category": "Testing",
+      "level": "Intermediate"
+    },
+    {
+      "id": "maestro",
+      "name": "Maestro",
+      "category": "Testing",
+      "level": "Intermediate"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "category": "Testing",
+      "level": "Intermediate"
+    },
+    {
+      "id": "katalon",
+      "name": "Katalon",
+      "category": "Testing",
+      "level": "Intermediate"
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "category": "DevOps",
+      "level": "Expert"
+    },
+    {
+      "id": "azure-devops",
+      "name": "Azure DevOps",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "id": "github-actions",
+      "name": "Github Actions CI/CD",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "id": "linux-bash",
+      "name": "Linux Bash",
+      "category": "DevOps",
+      "level": "Advanced"
+    },
+    {
+      "id": "restful-api",
+      "name": "RESTful API",
+      "category": "API & Data",
+      "level": "Expert"
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "category": "API & Data",
+      "level": "Intermediate"
+    },
+    {
+      "id": "json",
+      "name": "JSON",
+      "category": "API & Data",
+      "level": "Expert"
+    },
+    {
+      "id": "markdown",
+      "name": "Markdown",
+      "category": "API & Data",
+      "level": "Expert"
+    },
+    {
+      "id": "agile",
+      "name": "Agile",
+      "category": "Methodologies",
+      "level": "Advanced"
+    },
+    {
+      "id": "scrum",
+      "name": "Scrum",
+      "category": "Methodologies",
+      "level": "Advanced"
+    },
+    {
+      "id": "tdd",
+      "name": "TDD",
+      "category": "Methodologies",
+      "level": "Intermediate"
+    },
+    {
+      "id": "clean-code",
+      "name": "Clean Code",
+      "category": "Methodologies",
+      "level": "Expert"
+    },
+    {
+      "id": "design-patterns",
+      "name": "Design Patterns",
+      "category": "Methodologies",
+      "level": "Advanced"
+    }
+  ]
+}
