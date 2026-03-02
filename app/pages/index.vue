@@ -1,13 +1,11 @@
-```vue
 <script setup lang="ts">
-import { ref, computed, watch, nextTick } from "vue";
+import { ref, watch, nextTick } from "vue";
 import data from "~/assets/data.json";
 
-
-// Components
 import Header from "~/components/Header.vue";
 import ProfileCard from "~/components/ProfileCard.vue";
 import SkillsCard from "~/components/SkillsCard.vue";
+import StatsGrid from "~/components/StatsGrid.vue";
 import ProjectList from "~/components/ProjectList.vue";
 import ExperienceList from "~/components/ExperienceList.vue";
 import MobileNav from "~/components/MobileNav.vue";
@@ -62,17 +60,15 @@ watch(activeTab, async () => {
 
     <!-- Mobile View -->
     <div class="lg:hidden flex-1 min-h-0 flex flex-col">
-      <Transition name="fade" mode="out-in">
-        <div ref="scrollContainer" class="flex-1 overflow-y-auto scrollbar-hide">
-          <!-- Header -->
-          <div
-            class="sticky top-0 z-10 border-b border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-black/95 backdrop-blur-xl px-4 py-2 flex items-center justify-between">
-            <Logo class="h-6 w-auto text-slate-900 dark:text-white" />
-            <ThemeToggle />
-          </div>
+      <div ref="scrollContainer" class="flex-1 overflow-y-auto scrollbar-hide">
+        <div
+          class="sticky top-0 z-10 border-b border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-black/95 backdrop-blur-xl px-4 py-2 flex items-center justify-between">
+          <Logo class="h-6 w-auto text-slate-900 dark:text-white" />
+          <ThemeToggle />
+        </div>
 
-          <div v-if="activeTab === 'profile'" class="h-full flex flex-col">
-            <!-- Content -->
+        <Transition name="fade" mode="out-in">
+          <div v-if="activeTab === 'profile'" key="profile" class="h-full flex flex-col">
             <div class="p-4 space-y-3 pb-32">
               <ProfileCard :profile="profile" />
 
@@ -81,64 +77,38 @@ watch(activeTab, async () => {
                 style="animation-delay: 300ms">
                 <div class="flex items-center gap-2 mb-4">
                   <Icon name="lucide:link" class="w-4 h-4 text-emerald-500 dark:text-emerald-400" />
-                  <h2 class="font-bold font-mono text-sm text-slate-900 dark:text-white">
-                    Connect
-                  </h2>
+                  <h2 class="font-bold font-mono text-sm text-slate-900 dark:text-white">Connect</h2>
                 </div>
                 <SocialLinks :links="social_links" mode="grid" />
               </div>
 
-              <div class="grid grid-cols-3 gap-3 animate-slide-up" style="animation-delay: 400ms">
-                <div
-                  class="border border-slate-200 dark:border-slate-800 rounded-xl p-4 bg-slate-50 dark:bg-slate-900/50 backdrop-blur-sm text-center flex flex-col items-center justify-center gap-1 group hover:border-emerald-500/30 dark:hover:border-emerald-400/30 transition-colors">
-                  <Icon name="lucide:code-2" class="w-4 h-4 text-emerald-500 dark:text-emerald-400 mb-1" />
-                  <div class="text-xl font-bold text-slate-900 dark:text-white">
-                    {{ projects.length }}
-                  </div>
-                  <div class="text-[10px] font-mono text-slate-500 uppercase tracking-wide">Projects</div>
-                </div>
-                <div
-                  class="border border-slate-200 dark:border-slate-800 rounded-xl p-4 bg-slate-50 dark:bg-slate-900/50 backdrop-blur-sm text-center flex flex-col items-center justify-center gap-1 group hover:border-emerald-500/30 dark:hover:border-emerald-400/30 transition-colors">
-                  <Icon name="lucide:terminal" class="w-4 h-4 text-emerald-500 dark:text-emerald-400 mb-1" />
-                  <div class="text-xl font-bold text-slate-900 dark:text-white">
-                    {{ skills.length }}
-                  </div>
-                  <div class="text-[10px] font-mono text-slate-500 uppercase tracking-wide">Skills</div>
-                </div>
-                <div
-                  class="border border-slate-200 dark:border-slate-800 rounded-xl p-4 bg-slate-50 dark:bg-slate-900/50 backdrop-blur-sm text-center flex flex-col items-center justify-center gap-1 group hover:border-emerald-500/30 dark:hover:border-emerald-400/30 transition-colors">
-                  <Icon name="lucide:briefcase" class="w-4 h-4 text-emerald-500 dark:text-emerald-400 mb-1" />
-                  <div class="text-xl font-bold text-slate-900 dark:text-white">
-                    {{ experience.length }}
-                  </div>
-                  <div class="text-[10px] font-mono text-slate-500 uppercase tracking-wide">Roles</div>
-                </div>
-              </div>
+              <StatsGrid
+                :project-count="projects.length"
+                :skill-count="skills.length"
+                :role-count="experience.length"
+              />
             </div>
           </div>
 
-          <div v-else-if="activeTab === 'projects'">
-            <!-- Content -->
+          <div v-else-if="activeTab === 'projects'" key="projects">
             <div class="py-4 min-h-0 pb-32">
               <ProjectList :projects="projects" />
             </div>
           </div>
 
-          <div v-else-if="activeTab === 'skills'">
-            <!-- Content -->
+          <div v-else-if="activeTab === 'skills'" key="skills">
             <div class="py-4 min-h-0 pb-32">
               <SkillsCard :skills="skills" />
             </div>
           </div>
 
-          <div v-else-if="activeTab === 'experience'">
-            <!-- Content -->
+          <div v-else-if="activeTab === 'experience'" key="experience">
             <div class="py-4 min-h-0 pb-32">
               <ExperienceList :experience="experience" />
             </div>
           </div>
-        </div>
-      </Transition>
+        </Transition>
+      </div>
     </div>
 
     <!-- Mobile Navigation -->

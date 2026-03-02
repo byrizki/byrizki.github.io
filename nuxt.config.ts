@@ -36,6 +36,7 @@ export default defineNuxtConfig({
       short_name: "Rizki",
       description:
         "Personal portfolio of Rizki, an Experienced Software Engineer.",
+      scope: "/",
       start_url: "/",
       display: "standalone",
       background_color: "#ffffff",
@@ -67,6 +68,16 @@ export default defineNuxtConfig({
     },
     workbox: {
       navigateFallback: "/",
+      navigateFallbackDenylist: [
+        /^\/jsoneval-rs($|\/)/,
+        /^\/rusto-rs($|\/)/,
+      ],
+      runtimeCaching: [
+        {
+          urlPattern: /^\/(jsoneval-rs|rusto-rs)\/.*/,
+          handler: "NetworkOnly",
+        },
+      ],
       globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
       globIgnores: ["**/node_modules/**/*", "_nuxt/builds/**/*.json"],
     },
