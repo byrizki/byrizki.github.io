@@ -93,6 +93,8 @@ export interface GithubDashboardData {
   stats: GithubStats;
   contributions: ContributionActivity;
   topLanguages: LanguageStat[];
+  repoStars?: Record<string, number>;
+  repoForks?: Record<string, number>;
   streakAndTotal: StreakAndTotal;
   footer: GithubFooterData;
 }

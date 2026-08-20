@@ -8,7 +8,7 @@
     "location": "Jakarta",
     "bio": "A Tech Geek, Open Source Enthusiast's",
     "url": "https://github.com/byrizki",
-    "lastUpdated": "2026-08-20T11:29:37.022Z"
+    "lastUpdated": "2026-08-20T11:43:55.988Z"
   },
   "sources": {
     "github": {
@@ -3368,6 +3368,40 @@
       ]
     }
   ],
+  "repoStars": {
+    "1": 2,
+    "2": 10,
+    "8": 2,
+    "9": 12,
+    "10": 0,
+    "https://github.com/vesselsoft/react-native-android-shadow": 2,
+    "https://github.com/vesselsoft/metro-minify-obfuscator": 10,
+    "https://github.com/byrizki/jsoneval-rs": 2,
+    "https://github.com/byrizki/rusto-rs": 12,
+    "https://github.com/byrizki/madu-finance": 0,
+    "vesselsoft/react-native-android-shadow": 2,
+    "vesselsoft/metro-minify-obfuscator": 10,
+    "byrizki/jsoneval-rs": 2,
+    "byrizki/rusto-rs": 12,
+    "byrizki/madu-finance": 0
+  },
+  "repoForks": {
+    "1": 0,
+    "2": 1,
+    "8": 0,
+    "9": 5,
+    "10": 0,
+    "https://github.com/vesselsoft/react-native-android-shadow": 0,
+    "https://github.com/vesselsoft/metro-minify-obfuscator": 1,
+    "https://github.com/byrizki/jsoneval-rs": 0,
+    "https://github.com/byrizki/rusto-rs": 5,
+    "https://github.com/byrizki/madu-finance": 0,
+    "vesselsoft/react-native-android-shadow": 0,
+    "vesselsoft/metro-minify-obfuscator": 1,
+    "byrizki/jsoneval-rs": 0,
+    "byrizki/rusto-rs": 5,
+    "byrizki/madu-finance": 0
+  },
   "streakAndTotal": {
     "longestStreakDays": 20,
     "currentStreakDays": 3,
@@ -3397,6 +3431,6 @@
   "footer": {
     "quote": "First, solve the problem. Then, write the code.",
     "quoteAuthor": "John Johnson",
-    "lastUpdated": "2026-08-20T11:29:37.022Z"
+    "lastUpdated": "2026-08-20T11:43:55.988Z"
   }
 }

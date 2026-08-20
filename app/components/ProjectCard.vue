@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useGithubData } from "~/composables/useGithubData";
+
 interface Project {
   id: string;
   title: string;
@@ -22,6 +24,10 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: "open"): void;
 }>();
+
+const { getRepoStars, getRepoForks } = useGithubData();
+const starCount = computed(() => getRepoStars(props.project.github_url));
+const forkCount = computed(() => getRepoForks(props.project.github_url));
 
 const categoryColor = computed(() => {
   const type = props.project.project_type.toLowerCase();
@@ -79,13 +85,30 @@ const categoryColor = computed(() => {
           {{ project.project_type }}
         </span>
 
-        <!-- Featured Badge -->
-        <span
-          v-if="project.featured"
-          class="px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold bg-amber-500/90 text-white backdrop-blur-md flex items-center gap-1 shadow-xs">
-          <Icon name="lucide:star" class="w-3 h-3 fill-white" />
-          <span>Featured</span>
-        </span>
+        <div class="flex items-center gap-1.5">
+          <!-- GitHub Stars & Forks Badge -->
+          <span
+            v-if="project.github_url && (starCount !== null || forkCount !== null)"
+            class="px-2 py-0.5 rounded-md text-[10.5px] font-mono font-semibold bg-black/60 text-amber-300 border border-amber-500/40 backdrop-blur-md flex items-center gap-1.5 shadow-xs"
+            title="GitHub Stars & Forks">
+            <span v-if="starCount !== null" class="flex items-center gap-0.5">
+              <Icon name="lucide:star" class="w-3 h-3 fill-amber-400 text-amber-400" />
+              <span>{{ starCount }}</span>
+            </span>
+            <span v-if="forkCount !== null && forkCount > 0" class="flex items-center gap-0.5 text-slate-300">
+              <Icon name="lucide:git-fork" class="w-3 h-3 text-slate-400" />
+              <span>{{ forkCount }}</span>
+            </span>
+          </span>
+
+          <!-- Featured Badge -->
+          <span
+            v-if="project.featured"
+            class="px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold bg-amber-500/90 text-white backdrop-blur-md flex items-center gap-1 shadow-xs">
+            <Icon name="lucide:star" class="w-3 h-3 fill-white" />
+            <span>Featured</span>
+          </span>
+        </div>
       </div>
 
       <!-- Quick External Links (clickable without opening dialog) -->
@@ -107,7 +130,7 @@ const categoryColor = computed(() => {
           target="_blank"
           rel="noopener noreferrer"
           class="w-7 h-7 rounded-lg bg-black/60 hover:bg-slate-800 text-white backdrop-blur-md flex items-center justify-center transition-colors shadow-xs"
-          title="GitHub Repository">
+          :title="`GitHub Repository (${starCount ?? 0} stars, ${forkCount ?? 0} forks)`">
           <Icon name="lucide:github" class="w-3.5 h-3.5" />
         </a>
         <a

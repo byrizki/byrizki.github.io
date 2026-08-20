@@ -38,20 +38,34 @@ const getCategoryCount = (cat: string) => {
 };
 
 const filteredProjects = computed(() => {
-  return props.projects.filter((p) => {
-    const matchesCategory =
-      selectedCategory.value === "All" ||
-      p.project_type.toLowerCase() === selectedCategory.value.toLowerCase();
+  return props.projects
+    .filter((p) => {
+      const matchesCategory =
+        selectedCategory.value === "All" ||
+        p.project_type.toLowerCase() === selectedCategory.value.toLowerCase();
 
-    const q = searchQuery.value.trim().toLowerCase();
-    const matchesSearch =
-      !q ||
-      p.title.toLowerCase().includes(q) ||
-      p.description.toLowerCase().includes(q) ||
-      p.technologies.some((t) => t.toLowerCase().includes(q));
+      const q = searchQuery.value.trim().toLowerCase();
+      const matchesSearch =
+        !q ||
+        p.title.toLowerCase().includes(q) ||
+        p.description.toLowerCase().includes(q) ||
+        p.technologies.some((t) => t.toLowerCase().includes(q));
 
-    return matchesCategory && matchesSearch;
-  });
+      return matchesCategory && matchesSearch;
+    })
+    .sort((a, b) => {
+      // 1. Featured projects first
+      if (a.featured && !b.featured) return -1;
+      if (!a.featured && b.featured) return 1;
+
+      // 2. By display_order (ascending)
+      if (a.display_order !== b.display_order) {
+        return a.display_order - b.display_order;
+      }
+
+      // 3. By created_at (descending)
+      return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+    });
 });
 
 const openProjectDialog = (project: Project) => {

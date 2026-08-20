@@ -608,6 +608,68 @@ function generateDefaultWeeks() {
   return weeks;
 }
 
+async function fetchRepoStats(projects) {
+  const token = getGithubToken();
+  const headers = {
+    "User-Agent": "portfolio-build-script",
+  };
+  if (token) {
+    headers["Authorization"] = `bearer ${token}`;
+  }
+
+  const defaultStars = {
+    "https://github.com/vesselsoft/react-native-android-shadow": 2,
+    "https://github.com/vesselsoft/metro-minify-obfuscator": 10,
+    "https://github.com/byrizki/jsoneval-rs": 2,
+    "https://github.com/byrizki/rusto-rs": 12,
+    "https://github.com/byrizki/madu-finance": 0,
+  };
+
+  const defaultForks = {
+    "https://github.com/vesselsoft/react-native-android-shadow": 0,
+    "https://github.com/vesselsoft/metro-minify-obfuscator": 1,
+    "https://github.com/byrizki/jsoneval-rs": 0,
+    "https://github.com/byrizki/rusto-rs": 5,
+    "https://github.com/byrizki/madu-finance": 0,
+  };
+
+  const starsMap = { ...defaultStars };
+  const forksMap = { ...defaultForks };
+
+  for (const project of projects || []) {
+    if (project.github_url) {
+      try {
+        const match = project.github_url.match(/github\.com\/([^/]+)\/([^/]+)/);
+        if (match) {
+          const owner = match[1];
+          const repo = match[2];
+          const repoPath = `${owner}/${repo}`;
+          const res = await fetch(`https://api.github.com/repos/${repoPath}`, {
+            headers,
+            signal: AbortSignal.timeout(5000),
+          });
+          if (res.ok) {
+            const j = await res.json();
+            const stars = typeof j.stargazers_count === "number" ? j.stargazers_count : 0;
+            const forks = typeof j.forks_count === "number" ? j.forks_count : 0;
+            starsMap[project.github_url] = stars;
+            starsMap[repoPath] = stars;
+            starsMap[project.id] = stars;
+
+            forksMap[project.github_url] = forks;
+            forksMap[repoPath] = forks;
+            forksMap[project.id] = forks;
+          }
+        }
+      } catch (err) {
+        console.warn(`[build-data] Could not fetch live repo stats for ${project.github_url}: ${err.message}`);
+      }
+    }
+  }
+
+  return { repoStars: starsMap, repoForks: forksMap };
+}
+
 async function main() {
   let existingData = null;
   if (fs.existsSync(OUTPUT_PATH)) {
@@ -618,8 +680,20 @@ async function main() {
     }
   }
 
+  const dataJsonPath = path.resolve(__dirname, "../app/assets/data.json");
+  let projectsData = [];
+  if (fs.existsSync(dataJsonPath)) {
+    try {
+      const parsed = JSON.parse(fs.readFileSync(dataJsonPath, "utf-8"));
+      projectsData = parsed.projects || [];
+    } catch {
+      // ignore
+    }
+  }
+
   const githubUser = await fetchGithubData();
   const gitlabData = await fetchGitlabData();
+  const { repoStars, repoForks } = await fetchRepoStats(projectsData);
 
   if (!githubUser && !gitlabData && existingData) {
     console.log("[build-data] Both APIs failed. Preserving existing cached github-data.json.");
@@ -773,6 +847,8 @@ async function main() {
       months,
     },
     topLanguages: languages,
+    repoStars,
+    repoForks,
     streakAndTotal: {
       longestStreakDays: streaks.longestStreak,
       currentStreakDays: streaks.currentStreak,

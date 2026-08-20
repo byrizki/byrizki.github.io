@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useScrollLock } from "@vueuse/core";
+import { useGithubData } from "~/composables/useGithubData";
 
 const props = defineProps<{
   project: any;
@@ -7,6 +8,10 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits(["close"]);
+
+const { getRepoStars, getRepoForks } = useGithubData();
+const starCount = computed(() => (props.project ? getRepoStars(props.project.github_url) : null));
+const forkCount = computed(() => (props.project ? getRepoForks(props.project.github_url) : null));
 
 // Lock scroll when dialog is open
 const isLocked = useScrollLock(document.body);
@@ -41,10 +46,24 @@ watch(
 
           <!-- Floating Title over Image -->
           <div class="absolute bottom-4 left-6 right-6 flex flex-col gap-1.5">
-            <span
-              class="self-start px-2.5 py-0.5 bg-black/60 backdrop-blur-md text-teal-400 text-xs font-mono rounded-md border border-teal-500/30 font-medium">
-              {{ project.project_type }}
-            </span>
+            <div class="flex flex-wrap items-center gap-2">
+              <span
+                class="self-start px-2.5 py-0.5 bg-black/60 backdrop-blur-md text-teal-400 text-xs font-mono rounded-md border border-teal-500/30 font-medium">
+                {{ project.project_type }}
+              </span>
+              <span
+                v-if="project.github_url && (starCount !== null || forkCount !== null)"
+                class="px-2.5 py-0.5 rounded-md text-xs font-mono font-semibold bg-black/60 text-amber-300 border border-amber-500/40 backdrop-blur-md flex items-center gap-2">
+                <span v-if="starCount !== null" class="flex items-center gap-1">
+                  <Icon name="lucide:star" class="w-3 h-3 fill-amber-400 text-amber-400" />
+                  <span>{{ starCount }} stars</span>
+                </span>
+                <span v-if="forkCount !== null && forkCount > 0" class="flex items-center gap-1 text-slate-300">
+                  <Icon name="lucide:git-fork" class="w-3 h-3 text-slate-400" />
+                  <span>{{ forkCount }} forks</span>
+                </span>
+              </span>
+            </div>
             <h2 class="text-xl sm:text-2xl font-extrabold text-white tracking-tight leading-tight">
               {{ project.title }}
             </h2>
@@ -56,10 +75,24 @@ watch(
           v-else
           class="relative p-6 border-b border-slate-100 dark:border-slate-800 flex justify-between items-start">
           <div class="flex flex-col gap-2">
-            <span
-              class="self-start px-2.5 py-0.5 bg-teal-50 dark:bg-teal-950/60 text-teal-600 dark:text-teal-400 text-xs font-mono rounded-md border border-teal-200/60 dark:border-teal-800/60 font-medium">
-              {{ project.project_type }}
-            </span>
+            <div class="flex flex-wrap items-center gap-2">
+              <span
+                class="self-start px-2.5 py-0.5 bg-teal-50 dark:bg-teal-950/60 text-teal-600 dark:text-teal-400 text-xs font-mono rounded-md border border-teal-200/60 dark:border-teal-800/60 font-medium">
+                {{ project.project_type }}
+              </span>
+              <span
+                v-if="project.github_url && (starCount !== null || forkCount !== null)"
+                class="px-2.5 py-0.5 rounded-md text-xs font-mono font-semibold bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 border border-amber-200/60 dark:border-amber-800/60 flex items-center gap-2">
+                <span v-if="starCount !== null" class="flex items-center gap-1">
+                  <Icon name="lucide:star" class="w-3 h-3 fill-amber-400 text-amber-400" />
+                  <span>{{ starCount }} stars</span>
+                </span>
+                <span v-if="forkCount !== null && forkCount > 0" class="flex items-center gap-1 text-slate-600 dark:text-slate-300">
+                  <Icon name="lucide:git-fork" class="w-3 h-3 text-slate-400" />
+                  <span>{{ forkCount }} forks</span>
+                </span>
+              </span>
+            </div>
             <h2 class="text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">
               {{ project.title }}
             </h2>
