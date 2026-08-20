@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
 
-
 interface Skill {
   id: string;
   name: string;
@@ -37,21 +36,25 @@ const getIcon = (name: string) => {
     Go: "logos:go",
     Swift: "logos:swift",
     Kotlin: "logos:kotlin-icon",
-    "Objective-C": "vscode-icons:file-type-objectivec",
+    "Objective-C": "logos:c",
     "Android Java": "logos:java",
     "Linux Bash": "logos:bash-icon",
     // Frontend
     "Vue.js": "logos:vue",
+    Vue: "logos:vue",
     React: "logos:react",
     "React Native": "logos:react",
     "Next.js": "logos:nextjs-icon",
-    "Nuxt": "simple-icons:nuxt",
+    NextJS: "logos:nextjs-icon",
+    Nuxt: "simple-icons:nuxt",
     SvelteKit: "logos:svelte-icon",
     "Tailwind CSS": "simple-icons:tailwindcss",
+    TailwindCSS: "simple-icons:tailwindcss",
     HTML: "logos:html-5",
     CSS: "logos:css-3",
     // Backend
     "Node.js": "logos:nodejs-icon",
+    NodeJS: "logos:nodejs-icon",
     ".NET": "logos:dotnet",
     Laravel: "logos:laravel",
     CodeIgniter: "simple-icons:codeigniter",
@@ -59,27 +62,27 @@ const getIcon = (name: string) => {
     PostgreSQL: "logos:postgresql",
     MongoDB: "logos:mongodb-icon",
     MySQL: "logos:mysql",
-    MSSQL: "logos:microsoft-sql-server",
+    MSSQL: "simple-icons:microsoftsqlserver",
     SQLite: "logos:sqlite",
-    CouchDB: "simple-icons:couchdb",
+    CouchDB: "logos:couchdb",
     Prisma: "simple-icons:prisma",
     NHibernate: "simple-icons:hibernate",
     TypeORM: "simple-icons:typeorm",
-    Drizzle: "simple-icons:drizzle", // Note: Might need fallback if not in common sets
+    Drizzle: "simple-icons:drizzle",
     // Testing
     Jest: "logos:jest",
-    xUnit: "simple-icons:xunit",
-    Detox: "logos:detox",
-    Maestro: "simple-icons:maestro",
+    xUnit: "lucide:flask-conical",
+    Detox: "lucide:shield-check",
+    Maestro: "logos:maestro",
     Selenium: "logos:selenium",
-    Katalon: "simple-icons:katalon",
+    Katalon: "logos:katalon",
     // DevOps
     Docker: "logos:docker-icon",
     Kubernetes: "logos:kubernetes",
     AWS: "logos:aws",
     "Azure DevOps": "logos:azure-icon",
     "Github Actions CI/CD": "logos:github-actions",
-    AppCenter: "logos:visual-studio-app-center",
+    AppCenter: "simple-icons:visualstudioappcenter",
     Cloudflare: "simple-icons:cloudflare",
     Vercel: "logos:vercel-icon",
     Git: "logos:git-icon",
@@ -98,64 +101,83 @@ const getIcon = (name: string) => {
   return map[name] || "lucide:code-2";
 };
 
-// Category Icon Mapping
 const getCategoryIcon = (category: string) => {
   const map: Record<string, string> = {
-    Languages: "lucide:languages",
-    Frontend: "lucide:layout-template",
+    Languages: "lucide:code-2",
+    Frontend: "lucide:layout",
     Backend: "lucide:server",
     Database: "lucide:database",
     DevOps: "lucide:container",
+    Testing: "lucide:flask-conical",
+    "API & Data": "lucide:network",
+    Methodologies: "lucide:sparkles",
     Tools: "lucide:wrench",
   };
-  return map[category] || "lucide:folder";
+  return map[category] || "lucide:layers";
 };
 </script>
 
 <template>
   <div
-    class="lg:border lg:border-slate-200 lg:dark:border-slate-800 lg:rounded-2xl p-0 lg:p-4 lg:bg-white lg:dark:bg-slate-900/50 lg:backdrop-blur-sm flex-1 flex flex-col h-auto min-h-0">
-    <div class="items-center justify-between mb-4 shrink-0 px-4 lg:px-0 hidden lg:flex">
-      <div class="flex items-center gap-2">
-        <Icon name="lucide:cpu" class="w-4 h-4 text-emerald-500 dark:text-emerald-400" />
-        <h2 class="font-mono text-sm text-slate-900 dark:text-white">
-          skills
-        </h2>
+    class="w-full rounded-2xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900 p-4 sm:p-6 shadow-xs flex flex-col justify-between">
+    <!-- Header -->
+    <div class="flex items-center justify-between pb-4 mb-5 border-b border-slate-100 dark:border-slate-800/80">
+      <div class="flex items-center gap-2.5">
+        <div class="w-8 h-8 rounded-lg bg-teal-50 dark:bg-teal-950/60 text-teal-600 dark:text-teal-400 flex items-center justify-center">
+          <Icon name="lucide:cpu" class="w-4 h-4" />
+        </div>
+        <div>
+          <h2 class="font-bold text-base text-slate-900 dark:text-white tracking-tight">
+            Skills & Technologies
+          </h2>
+          <p class="text-xs text-slate-400 dark:text-slate-500 font-mono">
+            Categorized technical stack & proficiencies
+          </p>
+        </div>
       </div>
+
+      <span class="px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-[11px] font-mono text-slate-600 dark:text-slate-400 font-medium">
+        {{ skills.length }} skills
+      </span>
     </div>
 
-    <div
-      class="lg:flex-1 w-full lg:overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 dark:scrollbar-thumb-slate-800 space-y-4 px-4 lg:px-0 pb-4 lg:pb-0 lg:pr-2 lg:-mr-2">
-      <div v-for="(categorySkills, category, index) in groupedSkills" :key="category"
-        class="animate-slide-up bg-slate-50/50 dark:bg-slate-800/30 rounded-xl p-3 border border-slate-100 dark:border-slate-800/50"
-        :style="{ animationDelay: `${index * 100}ms` }">
-
+    <!-- Grouped Skills in a Responsive Grid for the Wide Card -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3.5 sm:gap-4">
+      <div
+        v-for="(categorySkills, category, index) in groupedSkills"
+        :key="category"
+        class="p-3.5 rounded-xl bg-slate-50/70 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800/60 hover:border-slate-200 dark:hover:border-slate-700 transition-all flex flex-col justify-between">
+        
         <!-- Category Header -->
-        <div class="flex items-center gap-2 mb-3">
-          <Icon :name="getCategoryIcon(String(category))" class="w-3.5 h-3.5 text-slate-400 dark:text-slate-500" />
-          <h3 class="text-xs font-mono font-bold text-slate-600 dark:text-slate-300 uppercase tracking-wider">
-            {{ category }}
-          </h3>
+        <div class="flex items-center justify-between mb-2.5">
+          <div class="flex items-center gap-2">
+            <Icon :name="getCategoryIcon(String(category))" class="w-3.5 h-3.5 text-teal-600 dark:text-teal-400" />
+            <h3 class="text-xs font-mono font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+              {{ category }}
+            </h3>
+          </div>
+          <span class="text-[10px] font-mono text-slate-400 dark:text-slate-500">
+            {{ categorySkills.length }}
+          </span>
         </div>
 
-        <!-- Tech Chips Grid -->
-        <div class="flex flex-wrap gap-2">
-          <div v-for="(skill, i) in categorySkills" :key="skill.id"
-            class="group relative flex items-center gap-2 px-3 py-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/60 rounded-lg hover:border-emerald-500/50 dark:hover:border-emerald-400/50 hover:shadow-lg hover:shadow-emerald-500/5 transition-all duration-300 cursor-default">
-
-            <!-- Skill Icon -->
-            <Icon :name="getIcon(skill.name)"
-              class="w-4 h-4 grayscale group-hover:grayscale-0 transition-all duration-300" />
+        <!-- Skills Chips -->
+        <div class="flex flex-wrap gap-1.5">
+          <div
+            v-for="skill in categorySkills"
+            :key="skill.id"
+            class="group flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-700/60 hover:border-teal-500/50 dark:hover:border-teal-400/50 hover:shadow-2xs transition-all duration-200 select-none cursor-default">
+            
+            <!-- Skill Logo/Icon -->
+            <Icon
+              :name="getIcon(skill.name)"
+              class="w-3.5 h-3.5 shrink-0 transition-transform group-hover:scale-110"
+            />
 
             <!-- Skill Name -->
-            <span
-              class="text-xs font-medium text-slate-600 dark:text-slate-400 group-hover:text-slate-900 dark:group-hover:text-white transition-colors">
+            <span class="text-[11px] font-medium text-slate-700 dark:text-slate-300 group-hover:text-slate-900 dark:group-hover:text-white transition-colors">
               {{ skill.name }}
             </span>
-
-            <!-- Subtle Glow Effect -->
-            <div
-              class="absolute inset-0 rounded-lg bg-emerald-500/0 group-hover:bg-emerald-500/5 transition-colors duration-300" />
           </div>
         </div>
       </div>

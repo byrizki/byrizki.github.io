@@ -1,16 +1,17 @@
 export const useTheme = () => {
   const theme = useState<"light" | "dark">("theme", () => "dark");
+  const isReady = useState<boolean>("is-theme-ready", () => false);
   const lastClick = useState<{ x: number; y: number }>("last-click", () => ({
     x: 0,
     y: 0,
   }));
 
-  const getInitialTheme = () => {
+  const getInitialTheme = (): "light" | "dark" => {
     if (import.meta.client) {
       const saved = localStorage.getItem("theme") as "light" | "dark" | null;
       if (saved === "light" || saved === "dark") return saved;
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches)
-        return "dark";
+      if (window.matchMedia("(prefers-color-scheme: light)").matches)
+        return "light";
     }
     return "dark";
   };
@@ -76,6 +77,7 @@ export const useTheme = () => {
     if (import.meta.client) {
       theme.value = getInitialTheme();
       updateDom(false);
+      isReady.value = true;
 
       window.addEventListener(
         "click",
@@ -89,6 +91,7 @@ export const useTheme = () => {
 
   return {
     theme,
+    isReady,
     init,
     toggle,
   };

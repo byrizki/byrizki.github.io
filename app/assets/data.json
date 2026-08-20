@@ -12,17 +12,17 @@
   "social_links": [
     {
       "id": "1",
-      "platform": "GitHub",
-      "url": "https://github.com/byrizki",
-      "icon": "github",
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/mrizki",
+      "icon": "linkedin",
       "display_order": 1,
       "created_at": "2023-01-01T00:00:00Z"
     },
     {
       "id": "2",
-      "platform": "LinkedIn",
-      "url": "https://linkedin.com/in/mrizki",
-      "icon": "linkedin",
+      "platform": "X",
+      "url": "https://x.com/rizki_sdk",
+      "icon": "x",
       "display_order": 2,
       "created_at": "2023-01-01T00:00:00Z"
     },
@@ -575,6 +575,51 @@
       "name": "Design Patterns",
       "category": "Methodologies",
       "level": "Advanced"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Universitas MH Thamrin",
+      "degree": "Bachelor of Information Technology",
+      "field_of_study": "Information Technology",
+      "start_year": "2018",
+      "end_year": "2020",
+      "grade": "Grade: B",
+      "logo": "/projects/mhthamrin.jpeg",
+      "location": "Jakarta, Indonesia"
+    },
+    {
+      "id": "2",
+      "institution": "Politeknik LP3I",
+      "degree": "Associate's Degree",
+      "field_of_study": "Computer/Information Technology Administration and Management",
+      "start_year": "2014",
+      "end_year": "2017",
+      "grade": "Grade: B",
+      "logo": "/projects/lp3i.webp",
+      "location": "Jakarta, Indonesia"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "1",
+      "name": "A2 English for Developers",
+      "issuer": "freeCodeCamp",
+      "issue_date": "Dec 2025",
+      "credential_id": "byrizki-a2efd",
+      "url": "https://www.freecodecamp.org/certification/byrizki/a2-english-for-developers",
+      "icon": "simple-icons:freecodecamp"
+    },
+    {
+      "id": "2",
+      "name": "Introduction to Career Skills in Software Development",
+      "issuer": "LinkedIn",
+      "issue_date": "Jun 2023",
+      "credential_id": null,
+      "url": "https://www.linkedin.com/learning/certificates/",
+      "icon": "logos:linkedin-icon",
+      "skills": ["Career Management", "Software Development"]
     }
   ]
 }

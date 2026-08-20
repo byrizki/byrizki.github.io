@@ -24,7 +24,8 @@ const props = withDefaults(
 const iconMap: Record<string, string> = {
   github: "lucide:github",
   linkedin: "lucide:linkedin",
-  twitter: "lucide:twitter",
+  twitter: "simple-icons:x",
+  x: "simple-icons:x",
   mail: "lucide:mail",
   link: "lucide:link",
   discord: "simple-icons:discord",
@@ -34,12 +35,12 @@ const iconMap: Record<string, string> = {
 </script>
 
 <template>
-  <div v-if="mode === 'row'" class="flex items-center gap-2 md:gap-3 shrink-0">
+  <div v-if="mode === 'row'" class="flex items-center gap-1.5 sm:gap-2 shrink-0">
     <a v-for="link in links" :key="link.id" :href="link.url" target="_blank" rel="noopener noreferrer"
-      class="p-1.5 md:p-2 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 rounded transition-all bg-white dark:bg-black/50 hover:bg-emerald-500/5 dark:hover:bg-emerald-400/5 group"
+      class="w-8 h-8 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 dark:hover:border-emerald-400/50 flex items-center justify-center transition-all bg-white dark:bg-slate-900 hover:bg-emerald-500/5 dark:hover:bg-emerald-400/5 group"
       :title="link.platform">
       <Icon :name="iconMap[link.icon] || 'lucide:link'"
-        class="w-3.5 h-3.5 md:w-4 md:h-4 text-slate-400 group-hover:text-emerald-500 dark:group-hover:text-emerald-400 transition-colors" />
+        class="w-4 h-4 text-slate-400 dark:text-slate-500 group-hover:text-emerald-500 dark:group-hover:text-emerald-400 transition-colors" />
     </a>
   </div>
 

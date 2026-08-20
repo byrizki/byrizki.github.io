@@ -15,43 +15,159 @@ interface Project {
   created_at: string;
 }
 
-defineProps<{
+const props = defineProps<{
   project: Project;
 }>();
+
+const emit = defineEmits<{
+  (e: "open"): void;
+}>();
+
+const categoryColor = computed(() => {
+  const type = props.project.project_type.toLowerCase();
+  if (type.includes("mobile")) {
+    return {
+      bg: "bg-purple-50 dark:bg-purple-950/80",
+      text: "text-purple-600 dark:text-purple-400",
+      border: "border-purple-200/80 dark:border-purple-800/60",
+    };
+  }
+  if (type.includes("web")) {
+    return {
+      bg: "bg-blue-50 dark:bg-blue-950/80",
+      text: "text-blue-600 dark:text-blue-400",
+      border: "border-blue-200/80 dark:border-blue-800/60",
+    };
+  }
+  return {
+    bg: "bg-emerald-50 dark:bg-emerald-950/80",
+    text: "text-emerald-600 dark:text-emerald-400",
+    border: "border-emerald-200/80 dark:border-emerald-800/60",
+  };
+});
 </script>
 
 <template>
   <div
-    class="border border-slate-200 dark:border-slate-800 hover:border-emerald-500/30 dark:hover:border-emerald-400/30 rounded-lg overflow-hidden transition-all group bg-white dark:bg-transparent cursor-pointer hover:shadow-lg hover:shadow-emerald-500/5">
-    <div v-if="project.image_url" class="relative h-32 bg-slate-200 dark:bg-slate-800">
-      <img :src="project.image_url" :alt="project.title"
-        class="w-full h-full object-cover object-top opacity-70 group-hover:opacity-100 transition-opacity" />
-      <div
-        class="absolute inset-0 bg-linear-to-t from-white/90 dark:from-slate-900 via-white/40 dark:via-slate-900/40 to-transparent">
+    class="group relative flex flex-col justify-between rounded-2xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900 overflow-hidden shadow-xs hover:shadow-xl hover:border-slate-300 dark:hover:border-slate-700 transition-all duration-300 cursor-pointer"
+    @click="emit('open')">
+    
+    <!-- Card Image Header -->
+    <div class="relative w-full aspect-video sm:h-44 bg-slate-100 dark:bg-slate-800/80 overflow-hidden shrink-0">
+      <img
+        v-if="project.image_url"
+        :src="project.image_url"
+        :alt="project.title"
+        class="w-full h-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-105"
+        loading="lazy"
+      />
+      <div v-else class="w-full h-full flex items-center justify-center text-slate-400 dark:text-slate-600">
+        <Icon name="lucide:image" class="w-8 h-8 opacity-40" />
       </div>
-      <div class="absolute top-2 left-2">
+
+      <!-- Linear Gradient Overlay -->
+      <div
+        class="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-black/20 pointer-events-none"
+      />
+
+      <!-- Top Badges Row -->
+      <div class="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between gap-2 pointer-events-none">
+        <!-- Category Pill -->
         <span
-          class="px-2 py-0.5 bg-white/80 dark:bg-black/80 backdrop-blur-sm border border-emerald-500/30 dark:border-emerald-400/30 text-emerald-500 dark:text-emerald-400 text-xs font-mono rounded">
+          class="px-2.5 py-1 rounded-md text-[10.5px] font-mono font-medium backdrop-blur-md border shadow-xs"
+          :class="[categoryColor.bg, categoryColor.text, categoryColor.border]">
           {{ project.project_type }}
         </span>
+
+        <!-- Featured Badge -->
+        <span
+          v-if="project.featured"
+          class="px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold bg-amber-500/90 text-white backdrop-blur-md flex items-center gap-1 shadow-xs">
+          <Icon name="lucide:star" class="w-3 h-3 fill-white" />
+          <span>Featured</span>
+        </span>
+      </div>
+
+      <!-- Quick External Links (clickable without opening dialog) -->
+      <div
+        class="absolute bottom-2.5 right-2.5 flex items-center gap-1.5 opacity-90 group-hover:opacity-100 transition-opacity"
+        @click.stop>
+        <a
+          v-if="project.demo_url"
+          :href="project.demo_url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-7 h-7 rounded-lg bg-black/60 hover:bg-emerald-600 text-white backdrop-blur-md flex items-center justify-center transition-colors shadow-xs"
+          title="Live Demo">
+          <Icon name="lucide:globe" class="w-3.5 h-3.5" />
+        </a>
+        <a
+          v-if="project.github_url"
+          :href="project.github_url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-7 h-7 rounded-lg bg-black/60 hover:bg-slate-800 text-white backdrop-blur-md flex items-center justify-center transition-colors shadow-xs"
+          title="GitHub Repository">
+          <Icon name="lucide:github" class="w-3.5 h-3.5" />
+        </a>
+        <a
+          v-if="project.playstore_url"
+          :href="project.playstore_url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-7 h-7 rounded-lg bg-black/60 hover:bg-emerald-600 text-white backdrop-blur-md flex items-center justify-center transition-colors shadow-xs"
+          title="Google Play Store">
+          <Icon name="logos:google-play-icon" class="w-3.5 h-3.5" />
+        </a>
+        <a
+          v-if="project.appstore_url"
+          :href="project.appstore_url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-7 h-7 rounded-lg bg-black/60 hover:bg-blue-600 text-white backdrop-blur-md flex items-center justify-center transition-colors shadow-xs"
+          title="Apple App Store">
+          <Icon name="logos:apple-app-store" class="w-3.5 h-3.5 invert" />
+        </a>
       </div>
     </div>
-    <div class="p-4">
-      <h3
-        class="font-bold mb-2 text-sm text-slate-900 dark:text-white group-hover:text-emerald-500 dark:group-hover:text-emerald-400 transition-colors">
-        {{ project.title }}
-      </h3>
-      <p class="text-slate-500 dark:text-slate-400 text-xs mb-3 line-clamp-2">
-        {{ project.description }}
-      </p>
-      <div class="flex flex-wrap gap-1.5">
-        <span v-for="tech in project.technologies.slice(0, 3)" :key="tech"
-          class="px-2 py-0.5 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-mono rounded border border-slate-300 dark:border-slate-700">
-          {{ tech }}
-        </span>
-        <span v-if="project.technologies.length > 3"
-          class="px-2 py-0.5 text-slate-400 dark:text-slate-500 text-xs font-mono">
-          +{{ project.technologies.length - 3 }}
+
+    <!-- Card Body -->
+    <div class="p-4 sm:p-5 flex-1 flex flex-col justify-between gap-3">
+      <div>
+        <div class="flex items-start justify-between gap-2">
+          <h3
+            class="font-bold text-base text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors leading-snug line-clamp-1">
+            {{ project.title }}
+          </h3>
+          <Icon
+            name="lucide:arrow-up-right"
+            class="w-4 h-4 text-slate-400 group-hover:text-teal-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0 mt-0.5"
+          />
+        </div>
+
+        <p class="text-xs sm:text-[13px] text-slate-500 dark:text-slate-400 mt-1.5 line-clamp-2 leading-relaxed">
+          {{ project.description }}
+        </p>
+      </div>
+
+      <!-- Tech Stack Pills & Footer -->
+      <div class="pt-3 border-t border-slate-100 dark:border-slate-800/60 flex items-center justify-between gap-2">
+        <div class="flex flex-wrap items-center gap-1.5 min-w-0">
+          <span
+            v-for="tech in project.technologies.slice(0, 3)"
+            :key="tech"
+            class="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700/60 text-[11px] font-mono text-slate-600 dark:text-slate-300 truncate">
+            {{ tech }}
+          </span>
+          <span
+            v-if="project.technologies.length > 3"
+            class="text-[10px] font-mono text-slate-400 dark:text-slate-500">
+            +{{ project.technologies.length - 3 }}
+          </span>
+        </div>
+
+        <span class="text-xs font-semibold text-teal-600 dark:text-teal-400 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity hidden sm:inline">
+          Details &rarr;
         </span>
       </div>
     </div>

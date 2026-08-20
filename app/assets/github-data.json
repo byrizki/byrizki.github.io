@@ -1,0 +1,3402 @@
+{
+  "profile": {
+    "name": "Muhamad Rizki",
+    "firstName": "Muhamad",
+    "lastName": "Rizki",
+    "login": "byrizki",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15137312?u=ba19c2e88adc2c4cc138aa40f5d3a2959dc77867&v=4",
+    "location": "Jakarta",
+    "bio": "A Tech Geek, Open Source Enthusiast's",
+    "url": "https://github.com/byrizki",
+    "lastUpdated": "2026-08-20T10:47:47.703Z"
+  },
+  "sources": {
+    "github": {
+      "username": "byrizki",
+      "contributions": 3204,
+      "repositories": 167,
+      "stars": 36,
+      "followers": 6
+    },
+    "gitlab": {
+      "serverUrl": "https://oktapod.quadrant-si.id",
+      "username": "muhammad.rizky",
+      "contributions": 8511,
+      "repositories": 213,
+      "mergeRequests": 56
+    }
+  },
+  "stats": {
+    "contributions": {
+      "value": 11715,
+      "display": "11.7k",
+      "rawDisplay": "11,715",
+      "trendPercent": 24,
+      "label": "Contributions",
+      "subtitle": "GitHub (3204) + GitLab (8511)",
+      "sparkline": [
+        10,
+        22,
+        35,
+        48,
+        65,
+        80,
+        95,
+        110
+      ]
+    },
+    "repositories": {
+      "value": 380,
+      "display": "380",
+      "trendPercent": 18,
+      "label": "Repositories",
+      "subtitle": "GitHub (167) + GitLab (213)",
+      "sparkline": [
+        40,
+        48,
+        60,
+        75,
+        90,
+        110,
+        130,
+        380
+      ]
+    },
+    "starsEarned": {
+      "value": 36,
+      "display": "36",
+      "trendPercent": 25,
+      "label": "Stars Earned",
+      "sparkline": [
+        5,
+        8,
+        12,
+        15,
+        20,
+        25,
+        28,
+        36
+      ]
+    },
+    "followers": {
+      "value": 6,
+      "display": "6",
+      "trendPercent": 8,
+      "label": "Followers",
+      "sparkline": [
+        1,
+        2,
+        2,
+        3,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    "commitQuality": {
+      "grade": "A+",
+      "ratingLabel": "High consistency",
+      "scoreDots": 6,
+      "maxDots": 6
+    }
+  },
+  "contributions": {
+    "totalLastYear": 11715,
+    "githubContributions": 3204,
+    "gitlabContributions": 8511,
+    "weeks": [
+      {
+        "days": [
+          {
+            "date": "2025-08-17",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2025-08-18",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2025-08-19",
+            "count": 21,
+            "githubCount": 21,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2025-08-20",
+            "count": 8,
+            "githubCount": 8,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2025-08-21",
+            "count": 31,
+            "githubCount": 31,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2025-08-22",
+            "count": 17,
+            "githubCount": 17,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2025-08-23",
+            "count": 28,
+            "githubCount": 28,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-08-24",
+            "count": 3,
+            "githubCount": 3,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 0
+          },
+          {
+            "date": "2025-08-25",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2025-08-26",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 2
+          },
+          {
+            "date": "2025-08-27",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2025-08-28",
+            "count": 17,
+            "githubCount": 17,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2025-08-29",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2025-08-30",
+            "count": 19,
+            "githubCount": 19,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-08-31",
+            "count": 26,
+            "githubCount": 26,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2025-09-01",
+            "count": 12,
+            "githubCount": 12,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2025-09-02",
+            "count": 16,
+            "githubCount": 16,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-09-03",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2025-09-04",
+            "count": 23,
+            "githubCount": 23,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2025-09-05",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 5
+          },
+          {
+            "date": "2025-09-06",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-09-07",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2025-09-08",
+            "count": 25,
+            "githubCount": 17,
+            "gitlabCount": 8,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2025-09-09",
+            "count": 12,
+            "githubCount": 12,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-09-10",
+            "count": 16,
+            "githubCount": 16,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2025-09-11",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 4
+          },
+          {
+            "date": "2025-09-12",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 5
+          },
+          {
+            "date": "2025-09-13",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-09-14",
+            "count": 7,
+            "githubCount": 7,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 0
+          },
+          {
+            "date": "2025-09-15",
+            "count": 32,
+            "githubCount": 32,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2025-09-16",
+            "count": 20,
+            "githubCount": 20,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2025-09-17",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2025-09-18",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2025-09-19",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2025-09-20",
+            "count": 10,
+            "githubCount": 8,
+            "gitlabCount": 2,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-09-21",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-09-22",
+            "count": 8,
+            "githubCount": 8,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2025-09-23",
+            "count": 10,
+            "githubCount": 10,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-09-24",
+            "count": 34,
+            "githubCount": 29,
+            "gitlabCount": 5,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2025-09-25",
+            "count": 19,
+            "githubCount": 15,
+            "gitlabCount": 4,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2025-09-26",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2025-09-27",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-09-28",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 0
+          },
+          {
+            "date": "2025-09-29",
+            "count": 8,
+            "githubCount": 6,
+            "gitlabCount": 2,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2025-09-30",
+            "count": 14,
+            "githubCount": 9,
+            "gitlabCount": 5,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-10-01",
+            "count": 31,
+            "githubCount": 3,
+            "gitlabCount": 28,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2025-10-02",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2025-10-03",
+            "count": 11,
+            "githubCount": 11,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2025-10-04",
+            "count": 10,
+            "githubCount": 10,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-10-05",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-10-06",
+            "count": 1,
+            "githubCount": 0,
+            "gitlabCount": 1,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2025-10-07",
+            "count": 7,
+            "githubCount": 6,
+            "gitlabCount": 1,
+            "level": 2,
+            "weekday": 2
+          },
+          {
+            "date": "2025-10-08",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 3
+          },
+          {
+            "date": "2025-10-09",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 4
+          },
+          {
+            "date": "2025-10-10",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2025-10-11",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-10-12",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-10-13",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2025-10-14",
+            "count": 3,
+            "githubCount": 3,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 2
+          },
+          {
+            "date": "2025-10-15",
+            "count": 8,
+            "githubCount": 6,
+            "gitlabCount": 2,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2025-10-16",
+            "count": 16,
+            "githubCount": 13,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2025-10-17",
+            "count": 21,
+            "githubCount": 15,
+            "gitlabCount": 6,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2025-10-18",
+            "count": 26,
+            "githubCount": 14,
+            "gitlabCount": 12,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-10-19",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2025-10-20",
+            "count": 24,
+            "githubCount": 24,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2025-10-21",
+            "count": 36,
+            "githubCount": 36,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2025-10-22",
+            "count": 22,
+            "githubCount": 11,
+            "gitlabCount": 11,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2025-10-23",
+            "count": 28,
+            "githubCount": 24,
+            "gitlabCount": 4,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2025-10-24",
+            "count": 34,
+            "githubCount": 18,
+            "gitlabCount": 16,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2025-10-25",
+            "count": 36,
+            "githubCount": 26,
+            "gitlabCount": 10,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-10-26",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-10-27",
+            "count": 21,
+            "githubCount": 15,
+            "gitlabCount": 6,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2025-10-28",
+            "count": 18,
+            "githubCount": 8,
+            "gitlabCount": 10,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-10-29",
+            "count": 18,
+            "githubCount": 18,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2025-10-30",
+            "count": 36,
+            "githubCount": 35,
+            "gitlabCount": 1,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2025-10-31",
+            "count": 32,
+            "githubCount": 31,
+            "gitlabCount": 1,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2025-11-01",
+            "count": 12,
+            "githubCount": 12,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-11-02",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 0
+          },
+          {
+            "date": "2025-11-03",
+            "count": 8,
+            "githubCount": 8,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2025-11-04",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-11-05",
+            "count": 12,
+            "githubCount": 12,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2025-11-06",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2025-11-07",
+            "count": 27,
+            "githubCount": 27,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2025-11-08",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-11-09",
+            "count": 8,
+            "githubCount": 8,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 0
+          },
+          {
+            "date": "2025-11-10",
+            "count": 12,
+            "githubCount": 12,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2025-11-11",
+            "count": 61,
+            "githubCount": 16,
+            "gitlabCount": 45,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2025-11-12",
+            "count": 15,
+            "githubCount": 13,
+            "gitlabCount": 2,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2025-11-13",
+            "count": 11,
+            "githubCount": 11,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2025-11-14",
+            "count": 30,
+            "githubCount": 25,
+            "gitlabCount": 5,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2025-11-15",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-11-16",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-11-17",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2025-11-18",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-11-19",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2025-11-20",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2025-11-21",
+            "count": 13,
+            "githubCount": 11,
+            "gitlabCount": 2,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2025-11-22",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-11-23",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-11-24",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 1
+          },
+          {
+            "date": "2025-11-25",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 2
+          },
+          {
+            "date": "2025-11-26",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 3
+          },
+          {
+            "date": "2025-11-27",
+            "count": 7,
+            "githubCount": 7,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2025-11-28",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2025-11-29",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-11-30",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-12-01",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 1
+          },
+          {
+            "date": "2025-12-02",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 2
+          },
+          {
+            "date": "2025-12-03",
+            "count": 7,
+            "githubCount": 6,
+            "gitlabCount": 1,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2025-12-04",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2025-12-05",
+            "count": 12,
+            "githubCount": 2,
+            "gitlabCount": 10,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2025-12-06",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-12-07",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-12-08",
+            "count": 25,
+            "githubCount": 25,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2025-12-09",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-12-10",
+            "count": 14,
+            "githubCount": 13,
+            "gitlabCount": 1,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2025-12-11",
+            "count": 16,
+            "githubCount": 3,
+            "gitlabCount": 13,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2025-12-12",
+            "count": 59,
+            "githubCount": 5,
+            "gitlabCount": 54,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2025-12-13",
+            "count": 119,
+            "githubCount": 0,
+            "gitlabCount": 119,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-12-14",
+            "count": 88,
+            "githubCount": 2,
+            "gitlabCount": 86,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2025-12-15",
+            "count": 210,
+            "githubCount": 1,
+            "gitlabCount": 209,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2025-12-16",
+            "count": 22,
+            "githubCount": 0,
+            "gitlabCount": 22,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2025-12-17",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 3
+          },
+          {
+            "date": "2025-12-18",
+            "count": 3,
+            "githubCount": 0,
+            "gitlabCount": 3,
+            "level": 1,
+            "weekday": 4
+          },
+          {
+            "date": "2025-12-19",
+            "count": 20,
+            "githubCount": 17,
+            "gitlabCount": 3,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2025-12-20",
+            "count": 7,
+            "githubCount": 7,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-12-21",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 0
+          },
+          {
+            "date": "2025-12-22",
+            "count": 15,
+            "githubCount": 12,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2025-12-23",
+            "count": 16,
+            "githubCount": 15,
+            "gitlabCount": 1,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2025-12-24",
+            "count": 19,
+            "githubCount": 9,
+            "gitlabCount": 10,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2025-12-25",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 4
+          },
+          {
+            "date": "2025-12-26",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 5
+          },
+          {
+            "date": "2025-12-27",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2025-12-28",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2025-12-29",
+            "count": 10,
+            "githubCount": 10,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2025-12-30",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 2
+          },
+          {
+            "date": "2025-12-31",
+            "count": 17,
+            "githubCount": 17,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2026-01-01",
+            "count": 34,
+            "githubCount": 34,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-01-02",
+            "count": 15,
+            "githubCount": 15,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-01-03",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-01-04",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-01-05",
+            "count": 3,
+            "githubCount": 0,
+            "gitlabCount": 3,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2026-01-06",
+            "count": 16,
+            "githubCount": 0,
+            "gitlabCount": 16,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-01-07",
+            "count": 25,
+            "githubCount": 6,
+            "gitlabCount": 19,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-01-08",
+            "count": 7,
+            "githubCount": 7,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-01-09",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-01-10",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-01-11",
+            "count": 22,
+            "githubCount": 3,
+            "gitlabCount": 19,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2026-01-12",
+            "count": 24,
+            "githubCount": 24,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-01-13",
+            "count": 12,
+            "githubCount": 9,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-01-14",
+            "count": 19,
+            "githubCount": 19,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-01-15",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 4
+          },
+          {
+            "date": "2026-01-16",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 5
+          },
+          {
+            "date": "2026-01-17",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-01-18",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-01-19",
+            "count": 9,
+            "githubCount": 0,
+            "gitlabCount": 9,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-01-20",
+            "count": 3,
+            "githubCount": 3,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 2
+          },
+          {
+            "date": "2026-01-21",
+            "count": 30,
+            "githubCount": 9,
+            "gitlabCount": 21,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-01-22",
+            "count": 4,
+            "githubCount": 0,
+            "gitlabCount": 4,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-01-23",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 5
+          },
+          {
+            "date": "2026-01-24",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-01-25",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-01-26",
+            "count": 9,
+            "githubCount": 6,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-01-27",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 2
+          },
+          {
+            "date": "2026-01-28",
+            "count": 8,
+            "githubCount": 4,
+            "gitlabCount": 4,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-01-29",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-01-30",
+            "count": 8,
+            "githubCount": 8,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-01-31",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-02-01",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-02-02",
+            "count": 10,
+            "githubCount": 8,
+            "gitlabCount": 2,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-02-03",
+            "count": 26,
+            "githubCount": 26,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-02-04",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 3
+          },
+          {
+            "date": "2026-02-05",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 4
+          },
+          {
+            "date": "2026-02-06",
+            "count": 7,
+            "githubCount": 4,
+            "gitlabCount": 3,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-02-07",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-02-08",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 0
+          },
+          {
+            "date": "2026-02-09",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2026-02-10",
+            "count": 19,
+            "githubCount": 14,
+            "gitlabCount": 5,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-02-11",
+            "count": 34,
+            "githubCount": 19,
+            "gitlabCount": 15,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-02-12",
+            "count": 10,
+            "githubCount": 10,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-02-13",
+            "count": 24,
+            "githubCount": 24,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-02-14",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-02-15",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-02-16",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2026-02-17",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-02-18",
+            "count": 6,
+            "githubCount": 2,
+            "gitlabCount": 4,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-02-19",
+            "count": 6,
+            "githubCount": 3,
+            "gitlabCount": 3,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-02-20",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 5
+          },
+          {
+            "date": "2026-02-21",
+            "count": 7,
+            "githubCount": 0,
+            "gitlabCount": 7,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-02-22",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-02-23",
+            "count": 9,
+            "githubCount": 8,
+            "gitlabCount": 1,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-02-24",
+            "count": 11,
+            "githubCount": 9,
+            "gitlabCount": 2,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-02-25",
+            "count": 25,
+            "githubCount": 22,
+            "gitlabCount": 3,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-02-26",
+            "count": 10,
+            "githubCount": 10,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-02-27",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-02-28",
+            "count": 21,
+            "githubCount": 21,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-03-01",
+            "count": 3,
+            "githubCount": 3,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 0
+          },
+          {
+            "date": "2026-03-02",
+            "count": 11,
+            "githubCount": 11,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-03-03",
+            "count": 3,
+            "githubCount": 3,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 2
+          },
+          {
+            "date": "2026-03-04",
+            "count": 8,
+            "githubCount": 8,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-03-05",
+            "count": 454,
+            "githubCount": 2,
+            "gitlabCount": 452,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-03-06",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 5
+          },
+          {
+            "date": "2026-03-07",
+            "count": 11,
+            "githubCount": 7,
+            "gitlabCount": 4,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-03-08",
+            "count": 15,
+            "githubCount": 15,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2026-03-09",
+            "count": 13,
+            "githubCount": 9,
+            "gitlabCount": 4,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-03-10",
+            "count": 905,
+            "githubCount": 13,
+            "gitlabCount": 892,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-03-11",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 3
+          },
+          {
+            "date": "2026-03-12",
+            "count": 7,
+            "githubCount": 5,
+            "gitlabCount": 2,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-03-13",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-03-14",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-03-15",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-03-16",
+            "count": 6,
+            "githubCount": 1,
+            "gitlabCount": 5,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2026-03-17",
+            "count": 3,
+            "githubCount": 0,
+            "gitlabCount": 3,
+            "level": 1,
+            "weekday": 2
+          },
+          {
+            "date": "2026-03-18",
+            "count": 10,
+            "githubCount": 10,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2026-03-19",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 4
+          },
+          {
+            "date": "2026-03-20",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 5
+          },
+          {
+            "date": "2026-03-21",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-03-22",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-03-23",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 1
+          },
+          {
+            "date": "2026-03-24",
+            "count": 12,
+            "githubCount": 12,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-03-25",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-03-26",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-03-27",
+            "count": 16,
+            "githubCount": 7,
+            "gitlabCount": 9,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-03-28",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-03-29",
+            "count": 19,
+            "githubCount": 2,
+            "gitlabCount": 17,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2026-03-30",
+            "count": 20,
+            "githubCount": 18,
+            "gitlabCount": 2,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-03-31",
+            "count": 24,
+            "githubCount": 17,
+            "gitlabCount": 7,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-04-01",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-04-02",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 4
+          },
+          {
+            "date": "2026-04-03",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 5
+          },
+          {
+            "date": "2026-04-04",
+            "count": 36,
+            "githubCount": 33,
+            "gitlabCount": 3,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-04-05",
+            "count": 13,
+            "githubCount": 6,
+            "gitlabCount": 7,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2026-04-06",
+            "count": 17,
+            "githubCount": 16,
+            "gitlabCount": 1,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-04-07",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-04-08",
+            "count": 32,
+            "githubCount": 3,
+            "gitlabCount": 29,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-04-09",
+            "count": 9,
+            "githubCount": 3,
+            "gitlabCount": 6,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-04-10",
+            "count": 11,
+            "githubCount": 0,
+            "gitlabCount": 11,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-04-11",
+            "count": 15,
+            "githubCount": 12,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-04-12",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 0
+          },
+          {
+            "date": "2026-04-13",
+            "count": 18,
+            "githubCount": 7,
+            "gitlabCount": 11,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-04-14",
+            "count": 34,
+            "githubCount": 5,
+            "gitlabCount": 29,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-04-15",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 3
+          },
+          {
+            "date": "2026-04-16",
+            "count": 19,
+            "githubCount": 0,
+            "gitlabCount": 19,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-04-17",
+            "count": 36,
+            "githubCount": 30,
+            "gitlabCount": 6,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-04-18",
+            "count": 15,
+            "githubCount": 14,
+            "gitlabCount": 1,
+            "level": 3,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-04-19",
+            "count": 30,
+            "githubCount": 30,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2026-04-20",
+            "count": 31,
+            "githubCount": 26,
+            "gitlabCount": 5,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-04-21",
+            "count": 32,
+            "githubCount": 30,
+            "gitlabCount": 2,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-04-22",
+            "count": 81,
+            "githubCount": 36,
+            "gitlabCount": 45,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-04-23",
+            "count": 29,
+            "githubCount": 12,
+            "gitlabCount": 17,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-04-24",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-04-25",
+            "count": 19,
+            "githubCount": 19,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-04-26",
+            "count": 42,
+            "githubCount": 42,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2026-04-27",
+            "count": 30,
+            "githubCount": 29,
+            "gitlabCount": 1,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-04-28",
+            "count": 41,
+            "githubCount": 25,
+            "gitlabCount": 16,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-04-29",
+            "count": 37,
+            "githubCount": 17,
+            "gitlabCount": 20,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-04-30",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-05-01",
+            "count": 33,
+            "githubCount": 29,
+            "gitlabCount": 4,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-05-02",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-05-03",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-05-04",
+            "count": 108,
+            "githubCount": 9,
+            "gitlabCount": 99,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-05-05",
+            "count": 39,
+            "githubCount": 18,
+            "gitlabCount": 21,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-05-06",
+            "count": 45,
+            "githubCount": 18,
+            "gitlabCount": 27,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-05-07",
+            "count": 12,
+            "githubCount": 8,
+            "gitlabCount": 4,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-05-08",
+            "count": 196,
+            "githubCount": 1,
+            "gitlabCount": 195,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-05-09",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-05-10",
+            "count": 110,
+            "githubCount": 7,
+            "gitlabCount": 103,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2026-05-11",
+            "count": 18,
+            "githubCount": 14,
+            "gitlabCount": 4,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-05-12",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-05-13",
+            "count": 8,
+            "githubCount": 5,
+            "gitlabCount": 3,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-05-14",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 4
+          },
+          {
+            "date": "2026-05-15",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 5
+          },
+          {
+            "date": "2026-05-16",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-05-17",
+            "count": 14,
+            "githubCount": 10,
+            "gitlabCount": 4,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2026-05-18",
+            "count": 22,
+            "githubCount": 17,
+            "gitlabCount": 5,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-05-19",
+            "count": 53,
+            "githubCount": 2,
+            "gitlabCount": 51,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-05-20",
+            "count": 21,
+            "githubCount": 18,
+            "gitlabCount": 3,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-05-21",
+            "count": 3,
+            "githubCount": 0,
+            "gitlabCount": 3,
+            "level": 1,
+            "weekday": 4
+          },
+          {
+            "date": "2026-05-22",
+            "count": 5,
+            "githubCount": 2,
+            "gitlabCount": 3,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-05-23",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-05-24",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 0
+          },
+          {
+            "date": "2026-05-25",
+            "count": 3,
+            "githubCount": 2,
+            "gitlabCount": 1,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2026-05-26",
+            "count": 8,
+            "githubCount": 3,
+            "gitlabCount": 5,
+            "level": 2,
+            "weekday": 2
+          },
+          {
+            "date": "2026-05-27",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-05-28",
+            "count": 11,
+            "githubCount": 6,
+            "gitlabCount": 5,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-05-29",
+            "count": 5,
+            "githubCount": 0,
+            "gitlabCount": 5,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-05-30",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-05-31",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-06-01",
+            "count": 7,
+            "githubCount": 7,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2026-06-02",
+            "count": 19,
+            "githubCount": 19,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-06-03",
+            "count": 26,
+            "githubCount": 17,
+            "gitlabCount": 9,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-06-04",
+            "count": 747,
+            "githubCount": 0,
+            "gitlabCount": 747,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-06-05",
+            "count": 2750,
+            "githubCount": 0,
+            "gitlabCount": 2750,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-06-06",
+            "count": 8,
+            "githubCount": 2,
+            "gitlabCount": 6,
+            "level": 2,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-06-07",
+            "count": 834,
+            "githubCount": 15,
+            "gitlabCount": 819,
+            "level": 4,
+            "weekday": 0
+          },
+          {
+            "date": "2026-06-08",
+            "count": 894,
+            "githubCount": 14,
+            "gitlabCount": 880,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-06-09",
+            "count": 11,
+            "githubCount": 11,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-06-10",
+            "count": 35,
+            "githubCount": 35,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-06-11",
+            "count": 40,
+            "githubCount": 40,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-06-12",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-06-13",
+            "count": 24,
+            "githubCount": 24,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-06-14",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 0
+          },
+          {
+            "date": "2026-06-15",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2026-06-16",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 2
+          },
+          {
+            "date": "2026-06-17",
+            "count": 3,
+            "githubCount": 3,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 3
+          },
+          {
+            "date": "2026-06-18",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-06-19",
+            "count": 17,
+            "githubCount": 17,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-06-20",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-06-21",
+            "count": 11,
+            "githubCount": 11,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2026-06-22",
+            "count": 4,
+            "githubCount": 4,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2026-06-23",
+            "count": 9,
+            "githubCount": 8,
+            "gitlabCount": 1,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-06-24",
+            "count": 12,
+            "githubCount": 9,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2026-06-25",
+            "count": 40,
+            "githubCount": 9,
+            "gitlabCount": 31,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-06-26",
+            "count": 2,
+            "githubCount": 0,
+            "gitlabCount": 2,
+            "level": 1,
+            "weekday": 5
+          },
+          {
+            "date": "2026-06-27",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-06-28",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-06-29",
+            "count": 2,
+            "githubCount": 2,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2026-06-30",
+            "count": 6,
+            "githubCount": 6,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 2
+          },
+          {
+            "date": "2026-07-01",
+            "count": 9,
+            "githubCount": 6,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2026-07-02",
+            "count": 5,
+            "githubCount": 5,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-07-03",
+            "count": 46,
+            "githubCount": 45,
+            "gitlabCount": 1,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-07-04",
+            "count": 30,
+            "githubCount": 30,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-07-05",
+            "count": 18,
+            "githubCount": 18,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 0
+          },
+          {
+            "date": "2026-07-06",
+            "count": 47,
+            "githubCount": 44,
+            "gitlabCount": 3,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-07-07",
+            "count": 18,
+            "githubCount": 16,
+            "gitlabCount": 2,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-07-08",
+            "count": 32,
+            "githubCount": 32,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-07-09",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-07-10",
+            "count": 14,
+            "githubCount": 14,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-07-11",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-07-12",
+            "count": 1,
+            "githubCount": 1,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 0
+          },
+          {
+            "date": "2026-07-13",
+            "count": 9,
+            "githubCount": 6,
+            "gitlabCount": 3,
+            "level": 3,
+            "weekday": 1
+          },
+          {
+            "date": "2026-07-14",
+            "count": 13,
+            "githubCount": 13,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-07-15",
+            "count": 25,
+            "githubCount": 19,
+            "gitlabCount": 6,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-07-16",
+            "count": 8,
+            "githubCount": 4,
+            "gitlabCount": 4,
+            "level": 2,
+            "weekday": 4
+          },
+          {
+            "date": "2026-07-17",
+            "count": 5,
+            "githubCount": 2,
+            "gitlabCount": 3,
+            "level": 2,
+            "weekday": 5
+          },
+          {
+            "date": "2026-07-18",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-07-19",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-07-20",
+            "count": 22,
+            "githubCount": 15,
+            "gitlabCount": 7,
+            "level": 4,
+            "weekday": 1
+          },
+          {
+            "date": "2026-07-21",
+            "count": 7,
+            "githubCount": 5,
+            "gitlabCount": 2,
+            "level": 2,
+            "weekday": 2
+          },
+          {
+            "date": "2026-07-22",
+            "count": 9,
+            "githubCount": 0,
+            "gitlabCount": 9,
+            "level": 3,
+            "weekday": 3
+          },
+          {
+            "date": "2026-07-23",
+            "count": 53,
+            "githubCount": 0,
+            "gitlabCount": 53,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-07-24",
+            "count": 14,
+            "githubCount": 0,
+            "gitlabCount": 14,
+            "level": 3,
+            "weekday": 5
+          },
+          {
+            "date": "2026-07-25",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-07-26",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-07-27",
+            "count": 3,
+            "githubCount": 0,
+            "gitlabCount": 3,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2026-07-28",
+            "count": 9,
+            "githubCount": 1,
+            "gitlabCount": 8,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-07-29",
+            "count": 5,
+            "githubCount": 0,
+            "gitlabCount": 5,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-07-30",
+            "count": 15,
+            "githubCount": 3,
+            "gitlabCount": 12,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-07-31",
+            "count": 23,
+            "githubCount": 13,
+            "gitlabCount": 10,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-08-01",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-08-02",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-08-03",
+            "count": 3,
+            "githubCount": 3,
+            "gitlabCount": 0,
+            "level": 1,
+            "weekday": 1
+          },
+          {
+            "date": "2026-08-04",
+            "count": 5,
+            "githubCount": 3,
+            "gitlabCount": 2,
+            "level": 2,
+            "weekday": 2
+          },
+          {
+            "date": "2026-08-05",
+            "count": 4,
+            "githubCount": 1,
+            "gitlabCount": 3,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-08-06",
+            "count": 18,
+            "githubCount": 0,
+            "gitlabCount": 18,
+            "level": 3,
+            "weekday": 4
+          },
+          {
+            "date": "2026-08-07",
+            "count": 37,
+            "githubCount": 16,
+            "gitlabCount": 21,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-08-08",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-08-09",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-08-10",
+            "count": 8,
+            "githubCount": 2,
+            "gitlabCount": 6,
+            "level": 2,
+            "weekday": 1
+          },
+          {
+            "date": "2026-08-11",
+            "count": 19,
+            "githubCount": 9,
+            "gitlabCount": 10,
+            "level": 4,
+            "weekday": 2
+          },
+          {
+            "date": "2026-08-12",
+            "count": 24,
+            "githubCount": 23,
+            "gitlabCount": 1,
+            "level": 4,
+            "weekday": 3
+          },
+          {
+            "date": "2026-08-13",
+            "count": 19,
+            "githubCount": 13,
+            "gitlabCount": 6,
+            "level": 4,
+            "weekday": 4
+          },
+          {
+            "date": "2026-08-14",
+            "count": 19,
+            "githubCount": 19,
+            "gitlabCount": 0,
+            "level": 4,
+            "weekday": 5
+          },
+          {
+            "date": "2026-08-15",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 6
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-08-16",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 0
+          },
+          {
+            "date": "2026-08-17",
+            "count": 0,
+            "githubCount": 0,
+            "gitlabCount": 0,
+            "level": 0,
+            "weekday": 1
+          },
+          {
+            "date": "2026-08-18",
+            "count": 9,
+            "githubCount": 9,
+            "gitlabCount": 0,
+            "level": 3,
+            "weekday": 2
+          },
+          {
+            "date": "2026-08-19",
+            "count": 6,
+            "githubCount": 5,
+            "gitlabCount": 1,
+            "level": 2,
+            "weekday": 3
+          },
+          {
+            "date": "2026-08-20",
+            "count": 8,
+            "githubCount": 8,
+            "gitlabCount": 0,
+            "level": 2,
+            "weekday": 4
+          }
+        ]
+      }
+    ],
+    "months": [
+      {
+        "name": "Aug",
+        "startWeekIndex": 0
+      },
+      {
+        "name": "Sep",
+        "startWeekIndex": 3
+      },
+      {
+        "name": "Oct",
+        "startWeekIndex": 7
+      },
+      {
+        "name": "Nov",
+        "startWeekIndex": 11
+      },
+      {
+        "name": "Dec",
+        "startWeekIndex": 16
+      },
+      {
+        "name": "Jan",
+        "startWeekIndex": 20
+      },
+      {
+        "name": "Feb",
+        "startWeekIndex": 24
+      },
+      {
+        "name": "Mar",
+        "startWeekIndex": 28
+      },
+      {
+        "name": "Apr",
+        "startWeekIndex": 33
+      },
+      {
+        "name": "May",
+        "startWeekIndex": 37
+      },
+      {
+        "name": "Jun",
+        "startWeekIndex": 42
+      },
+      {
+        "name": "Jul",
+        "startWeekIndex": 46
+      },
+      {
+        "name": "Aug",
+        "startWeekIndex": 50
+      }
+    ]
+  },
+  "topLanguages": [
+    {
+      "name": "TypeScript",
+      "percentage": 45.9,
+      "color": "#3178c6"
+    },
+    {
+      "name": "JavaScript",
+      "percentage": 14.3,
+      "color": "#f7df1e"
+    },
+    {
+      "name": "C#",
+      "percentage": 13.5,
+      "color": "#178600"
+    },
+    {
+      "name": "HTML",
+      "percentage": 5.1,
+      "color": "#e34c26"
+    },
+    {
+      "name": "Java",
+      "percentage": 3.2,
+      "color": "#b07219"
+    },
+    {
+      "name": "Other",
+      "percentage": 18,
+      "color": "#8b949e",
+      "otherLanguages": [
+        "Kotlin",
+        "CSS",
+        "C++",
+        "Python",
+        "Shell",
+        "Rust",
+        "Objective-C",
+        "C"
+      ]
+    }
+  ],
+  "streakAndTotal": {
+    "longestStreakDays": 20,
+    "currentStreakDays": 3,
+    "activeDaysOfWeek": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "totalContributionsYear": 11715,
+    "monthlyBars": [
+      15,
+      15,
+      15,
+      15,
+      28,
+      15,
+      15,
+      100,
+      15,
+      15
+    ]
+  },
+  "footer": {
+    "quote": "First, solve the problem. Then, write the code.",
+    "quoteAuthor": "John Johnson",
+    "lastUpdated": "2026-08-20T10:47:47.703Z"
+  }
+}

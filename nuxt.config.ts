@@ -5,7 +5,7 @@ const SUB_PROJECTS = ["jsoneval-rs", "rusto-rs"];
 
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   srcDir: "app",
   css: ["~/assets/css/main.css"],
   modules: ["@vite-pwa/nuxt", "@nuxt/icon"],
@@ -22,22 +22,26 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Muhamad Rizki - Experienced Software Engineer",
+      title: "Muhamad Rizki - Tech Geek, Open Source Enthusiasts",
       viewport:
         "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
       charset: "utf-8",
       htmlAttrs: {
         lang: "en",
-        class: "dark",
       },
+      script: [
+        {
+          innerHTML: `(function(){try{const s=localStorage.getItem('theme');if(s==='light'||(!s&&window.matchMedia('(prefers-color-scheme: light)').matches)){document.documentElement.classList.remove('dark')}else{document.documentElement.classList.add('dark')}}catch(e){}})()`,
+        },
+      ],
     },
   },
   pwa: {
     manifest: {
-      name: "Rizki - Experienced Software Engineer",
+      name: "Rizki - Tech Geek, Open Source Enthusiasts",
       short_name: "Rizki",
       description:
-        "Personal portfolio of Rizki, an Experienced Software Engineer.",
+        "Personal portfolio of Rizki, Tech Geek, Open Source Enthusiasts.",
       scope: "/",
       start_url: "/",
       display: "standalone",
@@ -83,7 +87,7 @@ export default defineNuxtConfig({
       globIgnores: ["**/node_modules/**/*", "_nuxt/builds/**/*.json"],
     },
     devOptions: {
-      enabled: true,
+      enabled: false,
       type: "module",
     },
   },
