@@ -123,7 +123,7 @@ function onAnimationEnd() {
 
           <!-- Last Updated Time (Replacing badges) -->
           <div class="flex items-center gap-1.5 text-xs text-slate-400 dark:text-slate-500 font-mono">
-            <Icon name="lucide:refresh-cw" class="w-3.5 h-3.5" />
+            <Icon name="lucide:clock" class="w-3.5 h-3.5" />
             <span>{{ formatDisplayDate(profile.lastUpdated) }}</span>
           </div>
         </div>

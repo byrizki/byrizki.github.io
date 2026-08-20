@@ -211,9 +211,9 @@
     {
       "id": "5",
       "company": "PT. Metamesta Internasional Teknologi (Platon)",
-      "role": "Part-time Software Engineer",
+      "role": "Freelance Software Engineer",
       "start_date": "2023-08-01T00:00:00Z",
-      "end_date": null,
+      "end_date": "2026-08-01T00:00:00Z",
       "description": "Remote working as a Software Engineer. Participated and Developed various fullstack applications using React Native, NextJS, NodeJS, Prisma, Vercel, and other technologies.",
       "logo": "/projects/platon.webp",
       "location": "Indonesia",
@@ -277,8 +277,8 @@
       "level": "Expert"
     },
     {
-      "id": "react-native",
-      "name": "React Native",
+      "id": "nextjs",
+      "name": "Next.js",
       "category": "Frontend",
       "level": "Expert"
     },
@@ -287,6 +287,12 @@
       "name": "Nuxt",
       "category": "Frontend",
       "level": "Expert"
+    },
+    {
+      "id": "vue",
+      "name": "Vue.js",
+      "category": "Frontend",
+      "level": "Advanced"
     },
     {
       "id": "tailwind-css",
@@ -382,6 +388,12 @@
       "id": "android-java",
       "name": "Android Java",
       "category": "Mobile",
+      "level": "Advanced"
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "category": "Database",
       "level": "Advanced"
     },
     {

@@ -23,24 +23,19 @@ function formatDate(dateString: string) {
 
 <template>
   <div
-    class="w-full rounded-2xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900 p-4 sm:p-6 shadow-xs flex flex-col justify-between">
+    class="w-full rounded-xl border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900 p-3.5 sm:p-4 shadow-xs flex flex-col justify-between">
     <!-- Header -->
-    <div class="flex items-center justify-between pb-4 mb-6 border-b border-slate-100 dark:border-slate-800/80">
-      <div class="flex items-center gap-2.5">
-        <div class="w-8 h-8 rounded-lg bg-teal-50 dark:bg-teal-950/60 text-teal-600 dark:text-teal-400 flex items-center justify-center">
-          <Icon name="lucide:briefcase" class="w-4 h-4" />
+    <div class="flex items-center justify-between pb-2.5 mb-3.5 border-b border-slate-100 dark:border-slate-800/80">
+      <div class="flex items-center gap-2">
+        <div class="w-7 h-7 rounded-lg bg-teal-50 dark:bg-teal-950/60 text-teal-600 dark:text-teal-400 flex items-center justify-center">
+          <Icon name="lucide:briefcase" class="w-3.5 h-3.5" />
         </div>
-        <div>
-          <h2 class="font-bold text-base text-slate-900 dark:text-white tracking-tight">
-            Work Experience
-          </h2>
-          <p class="text-xs text-slate-400 dark:text-slate-500 font-mono">
-            Career journey & key roles
-          </p>
-        </div>
+        <h2 class="font-bold text-sm text-slate-900 dark:text-white tracking-tight leading-tight">
+          Work Experience
+        </h2>
       </div>
 
-      <span class="px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-[11px] font-mono text-slate-600 dark:text-slate-400 font-medium">
+      <span class="px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-[10px] font-mono text-slate-600 dark:text-slate-400 font-medium">
         {{ experience.length }} positions
       </span>
     </div>
