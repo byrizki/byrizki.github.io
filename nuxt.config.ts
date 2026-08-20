@@ -20,6 +20,16 @@ export default defineNuxtConfig({
       autoSubfolderIndex: false,
     },
   },
+  icon: {
+    clientBundle: {
+      scan: {
+        globInclude: ["**/*.{vue,jsx,tsx,ts,js,json}"],
+      },
+      sizeLimitKb: 2048,
+    },
+    provider: "iconify",
+    serverBundle: false,
+  },
   app: {
     head: {
       title: "Muhamad Rizki - Tech Geek, Open Source Enthusiasts",

@@ -8,12 +8,12 @@
     "location": "Jakarta",
     "bio": "A Tech Geek, Open Source Enthusiast's",
     "url": "https://github.com/byrizki",
-    "lastUpdated": "2026-08-20T10:47:47.703Z"
+    "lastUpdated": "2026-08-20T11:18:12.924Z"
   },
   "sources": {
     "github": {
       "username": "byrizki",
-      "contributions": 3204,
+      "contributions": 3206,
       "repositories": 167,
       "stars": 36,
       "followers": 6
@@ -28,12 +28,12 @@
   },
   "stats": {
     "contributions": {
-      "value": 11715,
+      "value": 11717,
       "display": "11.7k",
-      "rawDisplay": "11,715",
+      "rawDisplay": "11,717",
       "trendPercent": 24,
       "label": "Contributions",
-      "subtitle": "GitHub (3204) + GitLab (8511)",
+      "subtitle": "GitHub (3206) + GitLab (8511)",
       "sparkline": [
         10,
         22,
@@ -102,8 +102,8 @@
     }
   },
   "contributions": {
-    "totalLastYear": 11715,
-    "githubContributions": 3204,
+    "totalLastYear": 11717,
+    "githubContributions": 3206,
     "gitlabContributions": 8511,
     "weeks": [
       {
@@ -3262,10 +3262,10 @@
           },
           {
             "date": "2026-08-20",
-            "count": 8,
-            "githubCount": 8,
+            "count": 10,
+            "githubCount": 10,
             "gitlabCount": 0,
-            "level": 2,
+            "level": 3,
             "weekday": 4
           }
         ]
@@ -3329,12 +3329,12 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "percentage": 45.9,
+      "percentage": 45.8,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
-      "percentage": 14.3,
+      "percentage": 14.5,
       "color": "#f7df1e"
     },
     {
@@ -3354,7 +3354,7 @@
     },
     {
       "name": "Other",
-      "percentage": 18,
+      "percentage": 17.9,
       "color": "#8b949e",
       "otherLanguages": [
         "Kotlin",
@@ -3380,7 +3380,7 @@
       true,
       true
     ],
-    "totalContributionsYear": 11715,
+    "totalContributionsYear": 11717,
     "monthlyBars": [
       15,
       15,
@@ -3397,6 +3397,6 @@
   "footer": {
     "quote": "First, solve the problem. Then, write the code.",
     "quoteAuthor": "John Johnson",
-    "lastUpdated": "2026-08-20T10:47:47.703Z"
+    "lastUpdated": "2026-08-20T11:18:12.924Z"
   }
 }
