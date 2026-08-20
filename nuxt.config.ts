@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
 
+const SUB_PROJECTS = ["jsoneval-rs", "rusto-rs"];
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
@@ -68,13 +70,12 @@ export default defineNuxtConfig({
     },
     workbox: {
       navigateFallback: "/",
-      navigateFallbackDenylist: [
-        /^\/jsoneval-rs($|\/)/,
-        /^\/rusto-rs($|\/)/,
-      ],
+      navigateFallbackDenylist: SUB_PROJECTS.map(
+        (slug) => new RegExp(`^/${slug}($|/)`),
+      ),
       runtimeCaching: [
         {
-          urlPattern: /^\/(jsoneval-rs|rusto-rs)\/.*/,
+          urlPattern: new RegExp(`^/(${SUB_PROJECTS.join("|")})/.*`),
           handler: "NetworkOnly",
         },
       ],
