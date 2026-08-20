@@ -8,9 +8,19 @@ defineProps<{
 
 const avatarError = ref(false);
 const clickRotation = ref(0);
+const isSpinning = ref(false);
 
 function spinAvatar() {
+  if (isSpinning.value) return;
+  isSpinning.value = true;
   clickRotation.value += 360;
+  setTimeout(() => {
+    isSpinning.value = false;
+  }, 750);
+}
+
+function onAnimationEnd() {
+  isSpinning.value = false;
 }
 </script>
 
@@ -54,11 +64,12 @@ function spinAvatar() {
       <!-- Avatar with 3D Coin-Flip Animation on Hover and Click -->
       <div class="relative shrink-0 -mt-10 sm:mt-0 [perspective:1000px] select-none">
         <div
-          class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full border-4 border-white dark:border-slate-900 shadow-md overflow-hidden bg-slate-100 dark:bg-slate-800 flex items-center justify-center transition-transform duration-700 [transform-style:preserve-3d] cursor-pointer hover:scale-105 active:scale-95"
+          class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full border-4 border-white dark:border-slate-900 shadow-md overflow-hidden bg-slate-100 dark:bg-slate-800 flex items-center justify-center transition-transform duration-700 ease-out [transform-style:preserve-3d] cursor-pointer hover:scale-105 active:scale-95"
           :style="{ transform: `rotateY(${clickRotation}deg)` }"
           title="Click or hover to flip!"
           @mouseenter="spinAvatar"
-          @click="spinAvatar">
+          @click="spinAvatar"
+          @transitionend="onAnimationEnd">
           <img
             v-if="!avatarError && profile.avatarUrl"
             :src="profile.avatarUrl"
@@ -87,12 +98,19 @@ function spinAvatar() {
           {{ profile.bio }}
         </p>
 
-        <!-- Location, GitHub Link, and Last Updated -->
+        <!-- Location, Email, GitHub Link, and Last Updated -->
         <div class="flex flex-wrap items-center gap-x-5 gap-y-2 mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
           <div v-if="profile.location" class="flex items-center gap-1.5">
             <Icon name="lucide:map-pin" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400 dark:text-slate-500" />
             <span>{{ profile.location }}</span>
           </div>
+
+          <a
+            href="mailto:work@byrizki.com"
+            class="flex items-center gap-1.5 text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors font-mono">
+            <Icon name="lucide:mail" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400 dark:text-slate-500" />
+            <span>work@byrizki.com</span>
+          </a>
 
           <a
             :href="profile.url"
@@ -106,7 +124,7 @@ function spinAvatar() {
           <!-- Last Updated Time (Replacing badges) -->
           <div class="flex items-center gap-1.5 text-xs text-slate-400 dark:text-slate-500 font-mono">
             <Icon name="lucide:refresh-cw" class="w-3.5 h-3.5" />
-            <span>Updated: {{ formatDisplayDate(profile.lastUpdated) }}</span>
+            <span>{{ formatDisplayDate(profile.lastUpdated) }}</span>
           </div>
         </div>
       </div>

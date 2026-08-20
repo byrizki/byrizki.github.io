@@ -80,14 +80,13 @@ export function calculateDonutSegments(
 }
 
 /**
- * Format date string to display format (e.g. "Aug 20, 2026")
+ * Format date string to display format (e.g. "Aug 2026")
  */
 export function formatDisplayDate(dateStr: string): string {
   try {
     const date = new Date(dateStr);
     return date.toLocaleDateString("en-US", {
       month: "short",
-      day: "numeric",
       year: "numeric",
     });
   } catch {
