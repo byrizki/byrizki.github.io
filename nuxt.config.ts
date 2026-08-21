@@ -47,6 +47,7 @@ export default defineNuxtConfig({
     },
   },
   pwa: {
+    registerType: "autoUpdate",
     manifest: {
       name: "Rizki - Tech Geek, Open Source Enthusiasts",
       short_name: "Rizki",
@@ -83,6 +84,9 @@ export default defineNuxtConfig({
       dir: "ltr",
     },
     workbox: {
+      skipWaiting: true,
+      clientsClaim: true,
+      cleanupOutdatedCaches: true,
       navigateFallback: "/",
       navigateFallbackDenylist: SUB_PROJECTS.map(
         (slug) => new RegExp(`^/${slug}($|/)`),
@@ -94,7 +98,7 @@ export default defineNuxtConfig({
         },
       ],
       globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
-      globIgnores: ["**/node_modules/**/*", "_nuxt/builds/**/*.json"],
+      globIgnores: ["**/node_modules/**/*"],
     },
     devOptions: {
       enabled: false,
