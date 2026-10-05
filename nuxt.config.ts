@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
 
-const SUB_PROJECTS = ["jsoneval-rs", "rusto-rs"];
+const SUB_PROJECTS = ["jsoneval-rs", "rusto-rs", "printedjs"];
 
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
