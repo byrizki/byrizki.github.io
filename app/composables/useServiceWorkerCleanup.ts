@@ -1,4 +1,4 @@
-const SUB_PROJECT_PATTERN = /^\/(jsoneval-rs|rusto-rs)($|\/)/;
+const SUB_PROJECT_PATTERN = /^\/(jsoneval-rs|rusto-rs|printedjs)($|\/)/;
 
 export function useServiceWorkerCleanup() {
   if (typeof window === "undefined") return;

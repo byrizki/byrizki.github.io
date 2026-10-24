@@ -1,2 +1,6 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+
+Sitemap: https://byrizki.github.io/rusto-rs/sitemap_index.xml
+Sitemap: https://byrizki.github.io/jsoneval-rs/sitemap.xml
+Sitemap: https://byrizki.github.io/printedjs/sitemap.xml

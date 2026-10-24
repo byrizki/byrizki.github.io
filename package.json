@@ -13,20 +13,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/icon": "2.1.0",
-    "nuxt": "^4.2.2",
-    "vue": "^3.5.25",
-    "vue-router": "^4.6.3"
+    "@nuxt/icon": "2.6.0",
+    "nuxt": "^4.6.2",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0"
   },
   "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501",
   "devDependencies": {
-    "@iconify-json/logos": "^1.2.10",
-    "@iconify-json/lucide": "^1.2.79",
-    "@iconify-json/simple-icons": "^1.2.62",
-    "@tailwindcss/vite": "^4.1.17",
-    "@vite-pwa/nuxt": "^1.1.0",
-    "@vueuse/core": "^14.1.0",
-    "sass": "^1.95.1",
-    "tailwindcss": "^4.1.17"
+    "@iconify-json/logos": "^1.2.17",
+    "@iconify-json/lucide": "^1.2.147",
+    "@iconify-json/simple-icons": "^1.2.100",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vite-pwa/nuxt": "^1.1.1",
+    "@vueuse/core": "^15.0.0",
+    "sass": "^1.106.1",
+    "tailwindcss": "^4.3.3"
   }
 }
