@@ -1,0 +1,200 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Muhamad Rizki
+  headline: Software Engineer | Full-Stack, Mobile & Systems Developer
+  location: Jakarta, Indonesia
+  email: work@byrizki.com
+  phone: "+6289613604287"
+  website: https://byrizki.com
+  social_networks:
+    - network: LinkedIn
+      username: byrizki
+    - network: GitHub
+      username: byrizki
+    - network: X
+      username: rizki_sdk
+  custom_connections:
+    - fontawesome_icon: medium
+      placeholder: byrizki
+      url: https://medium.com/@byrizki
+
+  sections:
+    summary:
+      - Results-driven Software Engineer and R&D Leader with 8+ years of experience engineering high-performance web, mobile, and system-level applications. Deep technical expertise in TypeScript/JavaScript (React, Next.js), Rust, C# (.NET), and React Native cross-platform architecture. Proven track record leading technology exploration, building developer tooling, and deploying resilient production services across web and mobile ecosystems.
+
+    skills:
+      - label: Languages
+        details: TypeScript, JavaScript, Rust, C#, PHP, Java (Android), Swift, Kotlin, Python, SQL
+      - label: Frontend
+        details: React, Next.js, Vue.js, Tailwind CSS, HTML5, CSS3, SCSS
+      - label: Mobile
+        details: React Native, Native Android (Java), iOS Native Modules (Objective-C/Swift), Cross-Platform Architecture
+      - label: Backend & APIs
+        details: Node.js, .NET Core / C#, PHP (Laravel, CodeIgniter), RESTful APIs, GraphQL
+      - label: Databases & ORMs
+        details: PostgreSQL, MySQL, Microsoft SQL Server, SQLite, MongoDB, Prisma, Drizzle ORM, TypeORM
+      - label: DevOps & Tooling
+        details: Git, GitHub Actions (CI/CD), Docker, Cloudflare, Vercel, AWS, Linux/Bash, Metro Bundler
+
+    experience:
+      - company: PT. Quadrant Synergy International
+        position: Research & Development Leader
+        start_date: 2022-06
+        end_date: present
+        location: Jakarta, Indonesia
+        highlights:
+          - Direct technology strategy, architectural innovation, and R&D exploration across engineering teams for enterprise web and mobile products.
+          - Evaluate and introduce modern tech stacks, frameworks, and developer tooling to elevate delivery speed and system maintainability.
+          - Architect cross-platform foundations bridging React Native, .NET Core, and distributed backend services.
+          - Designed internal deployment automation and release management pipelines using App Center and CI/CD workflows.
+          - Mentor engineers on clean architecture, design patterns, and cross-platform native module bridging.
+
+      - company: PT. Metamesta Internasional Teknologi (Platon)
+        position: Software Engineer (Contract / Remote)
+        start_date: 2023-08
+        end_date: 2026-08
+        location: Jakarta, Indonesia (Remote)
+        highlights:
+          - Engineered end-to-end full-stack web and mobile applications using React Native, Next.js, Node.js, and Prisma.
+          - Designed robust database schemas and serverless backend services deployed on Vercel with high availability.
+          - Collaborated across cross-functional remote teams to deliver responsive user interfaces and performant API integrations.
+
+      - company: PT. Quadrant Synergy International
+        position: IT Full Stack Developer
+        start_date: 2021-04
+        end_date: 2022-06
+        location: Jakarta, Indonesia
+        highlights:
+          - Developed full-stack enterprise solutions utilizing C# .NET for backend APIs and React Native for client applications.
+          - Created a dynamic JSON schema form generation framework in Node.js and Next.js, reducing custom form development turnaround time.
+          - Architected relational database structures and optimized queries on Microsoft SQL Server and PostgreSQL.
+
+      - company: PT. Quadrant Synergy International
+        position: IT Mobile Developer
+        start_date: 2018-03
+        end_date: 2021-04
+        location: Jakarta, Indonesia
+        highlights:
+          - Engineered cross-platform mobile apps with React Native, deploying multiple applications to Google Play Store and Apple App Store.
+          - Bridged native Java (Android) and Objective-C (iOS) modules for custom device capabilities, hardware integration, and performance optimization.
+          - Integrated offline-first local storage, push notifications, and secure authentication flows.
+
+      - company: Central Office of LP3I
+        position: IT Mobile Developer
+        start_date: 2017-02
+        end_date: 2018-03
+        location: Jakarta, Indonesia
+        highlights:
+          - Developed native Android applications using Java for LP3I students and faculty to access academic and administrative services.
+          - Built RESTful backend endpoints using PHP CodeIgniter and MySQL to interface mobile clients with central institutional databases.
+
+    projects:
+      - name: My Zurich Advisor (MZA)
+        summary: Flagship enterprise mobile application for Zurich Insurance agents across Indonesia.
+        highlights:
+          - Architected cross-platform React Native client with native Kotlin & Groovy modules and offline synchronization.
+          - Engineered dynamic product illustration workflows and digital policy onboarding for thousands of active insurance agents.
+
+      - name: Zurich Smart (ZSmart)
+        summary: Enterprise web application and actuarial calculation engine for PT Zurich Asuransi Indonesia.
+        highlights:
+          - Built high-precision C# .NET calculation engine for insurance product rules, premium projections, and unit link portfolios.
+          - Developed full-stack React and TypeScript portal for new business underwriting and quotation generation.
+
+      - name: QSI Enterprise Frameworks & Microservices
+        summary: Foundational developer frameworks, distributed microservices, and security infrastructure at PT Quadrant Synergy International.
+        highlights:
+          - Engineered C# .NET Core enterprise security framework, cryptographic token signing, and multi-tenant RBAC/ABAC authorization.
+          - Built distributed event-driven pub/sub messaging architecture on MassTransit and RabbitMQ, dynamic JSON Schema form engine, and administrative address indexing service.
+
+      - name: '[KorinAI Platform](https://korinai.com)'
+        summary: Generative AI multi-agent workspace with autonomous task routing, live parallel web search, and LMS orchestration.
+        highlights:
+          - Built multi-session concurrent room chat and autonomous agent routing & delegation using Next.js and Vercel AI SDK.
+          - Engineered live parallel web search integration and rich AI chat canvas workflows.
+
+      - name: '[RustO!](https://github.com/byrizki/rusto-rs)'
+        summary: Pure Rust OCR Library — Fast, safe, and cross-platform on-device inference for React Native and .NET.
+        highlights:
+          - Developed an optical character recognition engine based on PaddleOCR models and RTen inference runtime.
+          - Eliminated Python and OpenCV runtime dependencies to deliver lightweight, memory-safe OCR (~5.4 MB binary, <100ms latency).
+          - Published technical architecture on Medium and interactive benchmarks at [byrizki.com/rusto-rs](https://byrizki.com/rusto-rs).
+
+      - name: Paragon Logistics & Sorting System
+        summary: Industrial warehouse packing and batch sorting automation system for PT Paragon Technology and Innovation.
+        highlights:
+          - Developed high-throughput barcode scanning and packing-line sorting application with local daemon and AWS S3 cloud synchronization.
+
+      - name: Berkat Karimar Mandiri (BKM) ERP
+        summary: Enterprise resource planning and industrial logistics platform for commodity hauling and fleet operations.
+        highlights:
+          - Engineered core weighbridge scale integration (`vol_timbangan`) and shrinkage tracking (`susut`) with automated data synchronization.
+          - Developed full-stack Next.js web portal and companion React Native mobile application for driver dispatch.
+
+      - name: Cirrust
+        summary: Enterprise document management system (DMS) and workflow engine at PT Quadrant Synergy International.
+        highlights:
+          - Built high-volume document ingestion, secure indexing, and multi-tenant organizational workflow governance services in C# .NET and React.
+
+      - name: '[JSON Eval Rs](https://github.com/byrizki/jsoneval-rs)'
+        summary: Blazing-fast JSON Logic evaluator built in Rust with 80+ operators, comprehensive docs, and multi-language bindings.
+        highlights:
+          - Engineered a pure Rust JSON Logic evaluation engine supporting 80+ standard and custom logic operators.
+          - Created bindings and packages for React Native, Node.js, and .NET, enabling zero-copy, sub-millisecond evaluation across platforms.
+          - Deployed interactive documentation and live playground at [byrizki.com/jsoneval-rs](https://byrizki.com/jsoneval-rs).
+
+      - name: Manulife MiRecruit
+        summary: Digital agent recruitment and onboarding mobile application for PT Asuransi Jiwa Manulife Indonesia.
+        highlights:
+          - Engineered candidate tracking, verification workflows, and custom native device camera bridges using React Native.
+
+    education:
+      - institution: Universitas MH Thamrin
+        degree: Bachelor of Information Technology (S.Kom)
+        area: Information Technology
+        start_date: 2018
+        end_date: 2020
+        location: Jakarta, Indonesia
+        highlights:
+          - Graduated with Grade B
+
+      - institution: Politeknik LP3I
+        degree: "Associate's Degree in Computer & IT Administration (A.Md)"
+        area: Computer & IT Administration
+        start_date: 2014
+        end_date: 2017
+        location: Jakarta, Indonesia
+        highlights:
+          - Graduated with Grade B
+
+    certifications:
+      - name: '[A2 English for Developers](https://www.freecodecamp.org/certification/byrizki/a2-english-for-developers)'
+        date: 2025-12
+        summary: 'freeCodeCamp — Credential ID: byrizki-a2efd'
+
+      - name: '[Career Skills in Software Development](https://www.linkedin.com/learning/certificates/)'
+        date: 2023-06
+        summary: 'LinkedIn Learning — Career Management & Software Engineering'
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_top_note: false
+  typography:
+    font_size:
+      body: 9.5pt
+  templates:
+    education_entry:
+      degree_column: null
+      main_column: |-
+        **INSTITUTION**, DEGREE
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE

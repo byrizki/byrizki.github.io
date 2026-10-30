@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "fetch:data": "node scripts/fetch-github-data.mjs",
+    "build:cv": "uvx --with \"rendercv[full]\" rendercv render cv.yaml --pdf-path public/cv.pdf --output-folder /tmp/rendercv_build --dont-generate-markdown --dont-generate-html --dont-generate-png",
     "prebuild": "node scripts/fetch-github-data.mjs",
     "pregenerate": "node scripts/fetch-github-data.mjs",
     "build": "nuxt build",

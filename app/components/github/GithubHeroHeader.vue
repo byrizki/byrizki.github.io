@@ -121,6 +121,16 @@ function onAnimationEnd() {
             <span>{{ profile.url.replace(/^https?:\/\//, "") }}</span>
           </a>
 
+          <a
+            href="/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-1.5 text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 transition-colors font-mono font-medium"
+            title="Download / View Curriculum Vitae (PDF)">
+            <Icon name="lucide:file-text" class="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            <span>Resume / CV</span>
+          </a>
+
           <!-- Last Updated Time (Replacing badges) -->
           <div class="flex items-center gap-1.5 text-xs text-slate-400 dark:text-slate-500 font-mono">
             <Icon name="lucide:clock" class="w-3.5 h-3.5" />

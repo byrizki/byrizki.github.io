@@ -57,6 +57,15 @@ const navItems = [
     </div>
 
     <div class="flex items-center gap-4">
+      <a
+        href="/cv.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-teal-500/50 dark:hover:border-teal-400/50 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 text-xs font-mono font-medium transition-all group shadow-2xs"
+        title="View / Download Curriculum Vitae (PDF)">
+        <Icon name="lucide:file-down" class="w-3.5 h-3.5 text-teal-600 dark:text-teal-400 group-hover:scale-110 transition-transform" />
+        <span>CV (PDF)</span>
+      </a>
       <SocialLinks :links="socialLinks.slice(0, 4)" />
       <div class="w-px h-6 bg-slate-200 dark:bg-slate-800"></div>
       <ThemeToggle />
