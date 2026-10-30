@@ -35,20 +35,9 @@ function formatDate(dateString: string) {
         </h2>
       </div>
 
-      <div class="flex items-center gap-2">
-        <span class="px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-[10px] font-mono text-slate-600 dark:text-slate-400 font-medium">
-          {{ experience.length }} positions
-        </span>
-        <a
-          href="/cv.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-teal-50 dark:bg-teal-950/60 hover:bg-teal-100 dark:hover:bg-teal-900 border border-teal-200 dark:border-teal-800/80 text-teal-700 dark:text-teal-300 text-[10px] font-mono font-medium transition-colors"
-          title="Download Curriculum Vitae (PDF)">
-          <Icon name="lucide:file-down" class="w-3 h-3 text-teal-600 dark:text-teal-400" />
-          <span>CV PDF</span>
-        </a>
-      </div>
+      <span class="px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-[10px] font-mono text-slate-600 dark:text-slate-400 font-medium">
+        {{ experience.length }} positions
+      </span>
     </div>
 
     <!-- Timeline List -->

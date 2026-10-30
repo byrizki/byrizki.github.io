@@ -98,7 +98,7 @@ function onAnimationEnd() {
           {{ profile.bio }}
         </p>
 
-        <!-- Location, Email, GitHub Link, and Last Updated -->
+        <!-- Location, Email, GitHub Link, and Resume -->
         <div class="flex flex-wrap items-center gap-x-5 gap-y-2 mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
           <div v-if="profile.location" class="flex items-center gap-1.5">
             <Icon name="lucide:map-pin" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400 dark:text-slate-500" />
@@ -126,16 +126,16 @@ function onAnimationEnd() {
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center gap-1.5 text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 transition-colors font-mono font-medium"
-            title="Download / View Curriculum Vitae (PDF)">
-            <Icon name="lucide:file-text" class="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span>Resume / CV</span>
+            title="Download / View Resume (PDF)">
+            <Icon name="tabler:file-type-pdf" class="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            <span>Resume</span>
           </a>
+        </div>
 
-          <!-- Last Updated Time (Replacing badges) -->
-          <div class="flex items-center gap-1.5 text-xs text-slate-400 dark:text-slate-500 font-mono">
-            <Icon name="lucide:clock" class="w-3.5 h-3.5" />
-            <span>{{ formatDisplayDate(profile.lastUpdated) }}</span>
-          </div>
+        <!-- Last Updated Time (wrapped to bottom) -->
+        <div class="flex items-center gap-1.5 mt-2.5 text-xs text-slate-400 dark:text-slate-500 font-mono">
+          <Icon name="lucide:clock" class="w-3.5 h-3.5" />
+          <span>{{ formatDisplayDate(profile.lastUpdated) }}</span>
         </div>
       </div>
     </div>

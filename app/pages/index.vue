@@ -48,23 +48,11 @@ watch(activeTab, async () => {
     <div ref="scrollContainer" class="flex-1 min-h-0 overflow-y-auto">
       <div class="max-w-[1440px] mx-auto p-4 sm:p-6 lg:py-6 flex flex-col gap-4 md:gap-5">
         
-        <!-- Top Toolbar: CV Link, Social Links & Theme Toggle above Header Card -->
-        <div class="flex items-center justify-between gap-3 px-1">
-          <a
-            href="/cv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-teal-500/50 dark:hover:border-teal-400/50 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 text-xs font-mono font-medium transition-all group shadow-2xs"
-            title="Download / View Curriculum Vitae (PDF)">
-            <Icon name="lucide:file-down" class="w-3.5 h-3.5 text-teal-600 dark:text-teal-400 group-hover:scale-110 transition-transform" />
-            <span>Curriculum Vitae</span>
-          </a>
-
-          <div class="flex items-center gap-2 sm:gap-3">
-            <SocialLinks :links="social_links" mode="row" />
-            <div class="w-px h-5 bg-slate-200 dark:bg-slate-800"></div>
-            <ThemeToggle />
-          </div>
+        <!-- Top Toolbar: Social Links & Theme Toggle above Header Card -->
+        <div class="flex items-center justify-end gap-3 px-1">
+          <SocialLinks :links="social_links" mode="row" />
+          <div class="w-px h-5 bg-slate-200 dark:bg-slate-800"></div>
+          <ThemeToggle />
         </div>
 
         <!-- Persistent Header Card across all tabs -->
