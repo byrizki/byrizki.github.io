@@ -13,7 +13,7 @@ export function useServiceWorkerCleanup() {
   }
 
   const currentPath = window.location.pathname;
-  if (!SUB_PROJECT_PATTERN.test(currentPath)) return;
+  if (!SUB_PROJECT_PATTERN.test(currentPath) && !currentPath.endsWith(".pdf")) return;
 
   navigator.serviceWorker.getRegistrations().then(async (registrations) => {
     if (registrations.length === 0) return;

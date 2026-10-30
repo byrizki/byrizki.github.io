@@ -8,12 +8,12 @@
     "location": "Jakarta",
     "bio": "Contribute to open-source world and tinkering across the web & mobile stacks. Fueled by curiosity and coffee! ☕",
     "url": "https://github.com/byrizki",
-    "lastUpdated": "2026-10-30T07:11:19.090Z"
+    "lastUpdated": "2026-10-30T07:25:56.651Z"
   },
   "sources": {
     "github": {
       "username": "byrizki",
-      "contributions": 2739,
+      "contributions": 2743,
       "repositories": 178,
       "stars": 105,
       "followers": 9
@@ -28,12 +28,12 @@
   },
   "stats": {
     "contributions": {
-      "value": 11365,
+      "value": 11369,
       "display": "11.4k",
-      "rawDisplay": "11,365",
+      "rawDisplay": "11,369",
       "trendPercent": 24,
       "label": "Contributions",
-      "subtitle": "GitHub (2739) + GitLab (8626)",
+      "subtitle": "GitHub (2743) + GitLab (8626)",
       "sparkline": [
         10,
         22,
@@ -102,8 +102,8 @@
     }
   },
   "contributions": {
-    "totalLastYear": 11365,
-    "githubContributions": 2739,
+    "totalLastYear": 11369,
+    "githubContributions": 2743,
     "gitlabContributions": 8626,
     "weeks": [
       {
@@ -3270,10 +3270,10 @@
           },
           {
             "date": "2026-10-30",
-            "count": 2,
-            "githubCount": 2,
+            "count": 6,
+            "githubCount": 6,
             "gitlabCount": 0,
-            "level": 1,
+            "level": 2,
             "weekday": 5
           }
         ]
@@ -3337,7 +3337,7 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "percentage": 46.1,
+      "percentage": 46,
       "color": "#3178c6"
     },
     {
@@ -3362,7 +3362,7 @@
     },
     {
       "name": "Other",
-      "percentage": 17.3,
+      "percentage": 17.4,
       "color": "#8b949e",
       "otherLanguages": [
         "Java",
@@ -3403,19 +3403,19 @@
     "1": 0,
     "2": 1,
     "8": 0,
-    "9": 10,
+    "9": 11,
     "10": 0,
     "18": 0,
     "25": 0,
     "https://github.com/vesselsoft/react-native-android-shadow": 0,
     "https://github.com/vesselsoft/metro-minify-obfuscator": 1,
     "https://github.com/byrizki/jsoneval-rs": 0,
-    "https://github.com/byrizki/rusto-rs": 10,
+    "https://github.com/byrizki/rusto-rs": 11,
     "https://github.com/byrizki/madu-finance": 0,
     "vesselsoft/react-native-android-shadow": 0,
     "vesselsoft/metro-minify-obfuscator": 1,
     "byrizki/jsoneval-rs": 0,
-    "byrizki/rusto-rs": 10,
+    "byrizki/rusto-rs": 11,
     "byrizki/madu-finance": 0,
     "https://github.com/vesselsoft/fmp-mobile-apps": 0,
     "vesselsoft/fmp-mobile-apps": 0,
@@ -3434,7 +3434,7 @@
       true,
       true
     ],
-    "totalContributionsYear": 11365,
+    "totalContributionsYear": 11369,
     "monthlyBars": [
       15,
       15,
@@ -3451,6 +3451,6 @@
   "footer": {
     "quote": "First, solve the problem. Then, write the code.",
     "quoteAuthor": "John Johnson",
-    "lastUpdated": "2026-10-30T07:11:19.090Z"
+    "lastUpdated": "2026-10-30T07:25:56.651Z"
   }
 }

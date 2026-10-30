@@ -88,12 +88,17 @@ export default defineNuxtConfig({
       clientsClaim: true,
       cleanupOutdatedCaches: true,
       navigateFallback: "/",
-      navigateFallbackDenylist: SUB_PROJECTS.map(
-        (slug) => new RegExp(`^/${slug}($|/)`),
-      ),
+      navigateFallbackDenylist: [
+        /\.[a-zA-Z0-9]+$/,
+        ...SUB_PROJECTS.map((slug) => new RegExp(`^/${slug}($|/)`)),
+      ],
       runtimeCaching: [
         {
           urlPattern: new RegExp(`^/(${SUB_PROJECTS.join("|")})/.*`),
+          handler: "NetworkOnly",
+        },
+        {
+          urlPattern: /\.(?:pdf)$/,
           handler: "NetworkOnly",
         },
       ],
