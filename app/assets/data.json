@@ -473,7 +473,7 @@
       "start_date": "2022-06-01T00:00:00Z",
       "end_date": null,
       "description": "Lead technology exploration and innovation. Evaluated and implemented new technologies to enhance project capabilities.",
-      "logo": "/projects/qsi.webp",
+      "logo": "/projects/qsi-logo.webp",
       "location": "Indonesia",
       "display_order": 1,
       "created_at": "2022-06-01T00:00:00Z"
@@ -485,7 +485,7 @@
       "start_date": "2023-08-01T00:00:00Z",
       "end_date": "2026-08-01T00:00:00Z",
       "description": "Remote working as a Software Engineer. Participated and Developed various fullstack applications using React Native, NextJS, NodeJS, Prisma, Vercel, and other technologies.",
-      "logo": "/projects/platon.webp",
+      "logo": "/projects/platon-logo.webp",
       "location": "Indonesia",
       "display_order": 1,
       "created_at": "2022-06-01T00:00:00Z"
@@ -497,7 +497,7 @@
       "start_date": "2021-04-01T00:00:00Z",
       "end_date": "2022-06-01T00:00:00Z",
       "description": "Developed full-stack solutions using C# .NET backend and React Native frontend for company projects.",
-      "logo": "/projects/qsi.webp",
+      "logo": "/projects/qsi-logo.webp",
       "location": "Indonesia",
       "display_order": 2,
       "created_at": "2021-04-01T00:00:00Z"
@@ -509,7 +509,7 @@
       "start_date": "2018-03-01T00:00:00Z",
       "end_date": "2022-04-01T00:00:00Z",
       "description": "Built hybrid mobile applications using React Native for various company projects.",
-      "logo": "/projects/qsi.webp",
+      "logo": "/projects/qsi-logo.webp",
       "location": "Indonesia",
       "display_order": 3,
       "created_at": "2018-03-01T00:00:00Z"

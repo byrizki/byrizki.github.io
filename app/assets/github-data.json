@@ -8,14 +8,14 @@
     "location": "Jakarta",
     "bio": "Contribute to open-source world and tinkering across the web & mobile stacks. Fueled by curiosity and coffee! ☕",
     "url": "https://github.com/byrizki",
-    "lastUpdated": "2026-10-30T03:56:53.036Z"
+    "lastUpdated": "2026-10-30T04:18:02.300Z"
   },
   "sources": {
     "github": {
       "username": "byrizki",
       "contributions": 2737,
       "repositories": 178,
-      "stars": 97,
+      "stars": 100,
       "followers": 9
     },
     "gitlab": {
@@ -63,8 +63,8 @@
       ]
     },
     "starsEarned": {
-      "value": 97,
-      "display": "97",
+      "value": 100,
+      "display": "100",
       "trendPercent": 25,
       "label": "Stars Earned",
       "sparkline": [
@@ -75,7 +75,7 @@
         20,
         25,
         28,
-        97
+        100
       ]
     },
     "followers": {
@@ -3380,19 +3380,19 @@
     "1": 2,
     "2": 11,
     "8": 2,
-    "9": 72,
+    "9": 75,
     "10": 0,
     "18": 1,
     "25": 0,
     "https://github.com/vesselsoft/react-native-android-shadow": 2,
     "https://github.com/vesselsoft/metro-minify-obfuscator": 11,
     "https://github.com/byrizki/jsoneval-rs": 2,
-    "https://github.com/byrizki/rusto-rs": 72,
+    "https://github.com/byrizki/rusto-rs": 75,
     "https://github.com/byrizki/madu-finance": 0,
     "vesselsoft/react-native-android-shadow": 2,
     "vesselsoft/metro-minify-obfuscator": 11,
     "byrizki/jsoneval-rs": 2,
-    "byrizki/rusto-rs": 72,
+    "byrizki/rusto-rs": 75,
     "byrizki/madu-finance": 0,
     "https://github.com/vesselsoft/fmp-mobile-apps": 0,
     "vesselsoft/fmp-mobile-apps": 0,
@@ -3451,6 +3451,6 @@
   "footer": {
     "quote": "First, solve the problem. Then, write the code.",
     "quoteAuthor": "John Johnson",
-    "lastUpdated": "2026-10-30T03:56:53.036Z"
+    "lastUpdated": "2026-10-30T04:18:02.300Z"
   }
 }
