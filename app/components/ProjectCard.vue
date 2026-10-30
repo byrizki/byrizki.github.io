@@ -28,6 +28,37 @@ const emit = defineEmits<{
 const { getRepoStars, getRepoForks } = useGithubData();
 const starCount = computed(() => getRepoStars(props.project.github_url));
 const forkCount = computed(() => getRepoForks(props.project.github_url));
+
+const categoryColor = computed(() => {
+  const type = props.project.project_type?.toLowerCase() || "";
+  if (type === "ai") {
+    return {
+      bg: "bg-indigo-50/90 dark:bg-indigo-950/80",
+      text: "text-indigo-600 dark:text-indigo-400",
+      border: "border-indigo-200/80 dark:border-indigo-800/60",
+    };
+  }
+  if (type === "backend") {
+    return {
+      bg: "bg-amber-50/90 dark:bg-amber-950/80",
+      text: "text-amber-600 dark:text-amber-400",
+      border: "border-amber-200/80 dark:border-amber-800/60",
+    };
+  }
+  if (type === "mobile" || type.includes("mobile")) {
+    return {
+      bg: "bg-purple-50/90 dark:bg-purple-950/80",
+      text: "text-purple-600 dark:text-purple-400",
+      border: "border-purple-200/80 dark:border-purple-800/60",
+    };
+  }
+  // Web
+  return {
+    bg: "bg-blue-50/90 dark:bg-blue-950/80",
+    text: "text-blue-600 dark:text-blue-400",
+    border: "border-blue-200/80 dark:border-blue-800/60",
+  };
+});
 </script>
 
 <template>
@@ -54,31 +85,38 @@ const forkCount = computed(() => getRepoForks(props.project.github_url));
       />
 
       <!-- Top Badges Row -->
-      <div
-        v-if="(project.github_url && (starCount !== null || forkCount !== null)) || project.featured"
-        class="absolute top-2.5 right-2.5 flex items-center gap-1.5 pointer-events-none">
-        <!-- GitHub Stars & Forks Badge -->
+      <div class="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between gap-2 pointer-events-none">
+        <!-- Category Pill -->
         <span
-          v-if="project.github_url && (starCount !== null || forkCount !== null)"
-          class="px-2 py-0.5 rounded-md text-[10.5px] font-mono font-semibold bg-black/60 text-amber-300 border border-amber-500/40 backdrop-blur-md flex items-center gap-1.5 shadow-xs"
-          title="GitHub Stars & Forks">
-          <span v-if="starCount !== null" class="flex items-center gap-0.5">
-            <Icon name="lucide:star" class="w-3 h-3 fill-amber-400 text-amber-400" />
-            <span>{{ starCount }}</span>
-          </span>
-          <span v-if="forkCount !== null && forkCount > 0" class="flex items-center gap-0.5 text-slate-300">
-            <Icon name="lucide:git-fork" class="w-3 h-3 text-slate-400" />
-            <span>{{ forkCount }}</span>
-          </span>
+          class="px-2.5 py-1 rounded-md text-[10.5px] font-mono font-medium backdrop-blur-md border shadow-xs"
+          :class="[categoryColor.bg, categoryColor.text, categoryColor.border]">
+          {{ project.project_type }}
         </span>
 
-        <!-- Featured Badge -->
-        <span
-          v-if="project.featured"
-          class="px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold bg-amber-500/90 text-white backdrop-blur-md flex items-center gap-1 shadow-xs">
-          <Icon name="lucide:star" class="w-3 h-3 fill-white" />
-          <span>Featured</span>
-        </span>
+        <div class="flex items-center gap-1.5">
+          <!-- GitHub Stars & Forks Badge -->
+          <span
+            v-if="project.github_url && (starCount !== null || forkCount !== null)"
+            class="px-2 py-0.5 rounded-md text-[10.5px] font-mono font-semibold bg-black/60 text-amber-300 border border-amber-500/40 backdrop-blur-md flex items-center gap-1.5 shadow-xs"
+            title="GitHub Stars & Forks">
+            <span v-if="starCount !== null" class="flex items-center gap-0.5">
+              <Icon name="lucide:star" class="w-3 h-3 fill-amber-400 text-amber-400" />
+              <span>{{ starCount }}</span>
+            </span>
+            <span v-if="forkCount !== null && forkCount > 0" class="flex items-center gap-0.5 text-slate-300">
+              <Icon name="lucide:git-fork" class="w-3 h-3 text-slate-400" />
+              <span>{{ forkCount }}</span>
+            </span>
+          </span>
+
+          <!-- Featured Badge -->
+          <span
+            v-if="project.featured"
+            class="px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold bg-amber-500/90 text-white backdrop-blur-md flex items-center gap-1 shadow-xs">
+            <Icon name="lucide:star" class="w-3 h-3 fill-white" />
+            <span>Featured</span>
+          </span>
+        </div>
       </div>
 
       <!-- Quick External Links (clickable without opening dialog) -->

@@ -49,8 +49,12 @@
       "title": "React Native Android Shadow",
       "description": "Library providing consistent shadow API between iOS and Android platforms.",
       "image_url": "/projects/rn-android-shadow.webp",
-      "project_type": "Open Source",
-      "technologies": ["React Native", "Android", "Java"],
+      "project_type": "Mobile",
+      "technologies": [
+        "React Native",
+        "Android",
+        "Java"
+      ],
       "demo_url": null,
       "github_url": "https://github.com/vesselsoft/react-native-android-shadow",
       "playstore_url": null,
@@ -64,8 +68,11 @@
       "title": "Metro Minify Obfuscator",
       "description": "React Native bundler enhancement for code obfuscation.",
       "image_url": "/projects/metro-minifier.webp",
-      "project_type": "Open Source",
-      "technologies": ["React Native", "Metro Bundler"],
+      "project_type": "Mobile",
+      "technologies": [
+        "React Native",
+        "Metro Bundler"
+      ],
       "demo_url": null,
       "github_url": "https://github.com/vesselsoft/metro-minify-obfuscator",
       "playstore_url": null,
@@ -79,8 +86,14 @@
       "title": "JSON Eval Rs",
       "description": "Blazing-fast JSON Logic evaluator built in Rust with 80+ operators. Comprehensive operator documentation, multiple language bindings, and deployment guides.",
       "image_url": "/projects/jsoneval-rs.webp",
-      "project_type": "Open Source",
-      "technologies": ["Rust", "JSON Logic", "React Native", "Node.js", ".NET"],
+      "project_type": "Backend",
+      "technologies": [
+        "Rust",
+        "JSON Logic",
+        "React Native",
+        "Node.js",
+        ".NET"
+      ],
       "demo_url": "https://byrizki.com/jsoneval-rs",
       "github_url": "https://github.com/byrizki/jsoneval-rs",
       "playstore_url": null,
@@ -94,8 +107,13 @@
       "title": "RustO!",
       "description": "A Pure Rust OCR Library - Fast, Safe, and Cross-Platform (React Native, .NET). Built based on PaddleOCR and MNN for Inference Engine",
       "image_url": "/projects/rusto.webp",
-      "project_type": "Open Source",
-      "technologies": ["Rust", "OCR", "React Native", ".NET"],
+      "project_type": "AI",
+      "technologies": [
+        "Rust",
+        "OCR",
+        "React Native",
+        ".NET"
+      ],
       "demo_url": "https://byrizki.com/rusto-rs",
       "github_url": "https://github.com/byrizki/rusto-rs",
       "playstore_url": null,
@@ -109,8 +127,11 @@
       "title": "byMadu",
       "description": "byMADU is a personal finance application built with Next.js that helps users and their teams monitor wallet balances, transactions, budgets, and installments in a unified dashboard. The application combines modern authentication, real-time data management, and a responsive interface to simplify everyday financial decision-making.",
       "image_url": "/projects/bymadu.webp",
-      "project_type": "Open Source",
-      "technologies": ["Personal Finance", "Web Apps"],
+      "project_type": "Web",
+      "technologies": [
+        "Personal Finance",
+        "Web Apps"
+      ],
       "demo_url": "https://madu.refind.id",
       "github_url": "https://github.com/byrizki/madu-finance",
       "playstore_url": null,
@@ -124,8 +145,12 @@
       "title": "JSON Form Demo App",
       "description": "A project used by PT. Quadrant Synergy International clients to preview dynamic forms created based on JSON schema. I was responsible for developing the JSON-based dynamic form framework using Node.js and the demo application using Next.js.",
       "image_url": "/projects/jsonform-demoapp.webp",
-      "project_type": "Web App",
-      "technologies": ["NextJS", "Node.js", "JSON Schema"],
+      "project_type": "Web",
+      "technologies": [
+        "NextJS",
+        "Node.js",
+        "JSON Schema"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -139,8 +164,13 @@
       "title": "AppcenterQ",
       "description": "Internal mobile application release management and distribution platform at PT Quadrant Synergy International. Built to automate internal app builds, version deployments, and direct tester downloads.",
       "image_url": "/projects/quadrant-appcenter.webp",
-      "project_type": "Web App",
-      "technologies": ["React", "React Native", "AppCenter", "CI/CD"],
+      "project_type": "Web",
+      "technologies": [
+        "React",
+        "React Native",
+        "AppCenter",
+        "CI/CD"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -154,8 +184,12 @@
       "title": "SIDARLING Project",
       "description": "An application project for a university thesis used to manage waste processing and recording at PT. PLN. I was responsible for developing the Frontend application using NextJS and Backend using PHP.",
       "image_url": "/projects/sidarling-project.webp",
-      "project_type": "Web App",
-      "technologies": ["NextJS", "PHP", "Tailwind CSS"],
+      "project_type": "Web",
+      "technologies": [
+        "NextJS",
+        "PHP",
+        "Tailwind CSS"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -169,8 +203,11 @@
       "title": "STIAMI Mobile",
       "description": "A mobile apps that used by STIAMI Students to access their academic information. I was responsible for the mobile apps development that using React Native.",
       "image_url": "/projects/stiami-mobile.webp",
-      "project_type": "Mobile App",
-      "technologies": ["React Native", "Mobile Apps"],
+      "project_type": "Mobile",
+      "technologies": [
+        "React Native",
+        "Mobile Apps"
+      ],
       "demo_url": "https://www.stiami.ac.id",
       "github_url": null,
       "playstore_url": "https://play.google.com/store/apps/details?id=id.ac.stiami.mobilesystem",
@@ -184,8 +221,12 @@
       "title": "LP3I Mobile Services",
       "description": "A mobile apps that used by LP3I Students and Lecturers to access their academic information. I was responsible for the fullstack development of this app. Using PHP CodeIgniter as Backend and Native Java Android for Frontend",
       "image_url": "/projects/lp3i-mobile.webp",
-      "project_type": "Mobile App",
-      "technologies": ["Android", "PHP", "CodeIgniter"],
+      "project_type": "Mobile",
+      "technologies": [
+        "Android",
+        "PHP",
+        "CodeIgniter"
+      ],
       "demo_url": "https://www.lp3i.ac.id",
       "github_url": null,
       "playstore_url": "https://play.google.com/store/apps/details?id=id.ac.lp3i.lp3icollege",
@@ -199,8 +240,14 @@
       "title": "My Zurich Advisor",
       "description": "Flagship mobile application for Zurich Insurance agents across Indonesia. Empowers insurance agents with real-time product illustrations, instant quotation generation, and digital policy onboarding with robust offline synchronization.",
       "image_url": "/projects/zurich-mza.webp",
-      "project_type": "Mobile App",
-      "technologies": ["React Native", "TypeScript", "Kotlin", "Java", "Groovy"],
+      "project_type": "Mobile",
+      "technologies": [
+        "React Native",
+        "TypeScript",
+        "Kotlin",
+        "Java",
+        "Groovy"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -214,8 +261,14 @@
       "title": "Zurich Smart",
       "description": "Enterprise web application and actuarial calculation engine for Zurich Indonesia. Powers complex insurance calculations, premium illustrations, product rule evaluations, and new business policy underwriting.",
       "image_url": "/projects/zurich-smart.webp",
-      "project_type": "Web App",
-      "technologies": ["React", "TypeScript", "C# .NET Core", "EJS", "Docker"],
+      "project_type": "Web",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "C# .NET Core",
+        "EJS",
+        "Docker"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -230,7 +283,13 @@
       "description": "Generative AI multi-agent workspace and intelligence platform. Features multi-session concurrent room chat, autonomous agent task routing & delegation, real-time parallel live web search, and LMS course orchestration.",
       "image_url": "/projects/korinai.webp",
       "project_type": "AI",
-      "technologies": ["Next.js", "Node.js", "AI Agents", "Parallel Search", "WebSocket"],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "AI Agents",
+        "Parallel Search",
+        "WebSocket"
+      ],
       "demo_url": "https://korinai.com",
       "github_url": null,
       "playstore_url": null,
@@ -245,7 +304,13 @@
       "description": "Conversational personal finance and expense analytics web application. Combines natural language AI financial advisory with real-time budget tracking, cash flow projections, and automated transaction categorization.",
       "image_url": "/projects/korin-finance.webp",
       "project_type": "AI",
-      "technologies": ["Next.js", "AI SDK", "Radix UI", "Financial AI", "Tailwind CSS"],
+      "technologies": [
+        "Next.js",
+        "AI SDK",
+        "Radix UI",
+        "Financial AI",
+        "Tailwind CSS"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -260,7 +325,13 @@
       "description": "Computer-use and intelligent workspace assistant. Features AI-powered screen interaction, file attachment parsing, multi-modal context understanding, and rich conversational canvas rendering.",
       "image_url": "/projects/kejoraai.webp",
       "project_type": "AI",
-      "technologies": ["TypeScript", "React", "AI SDK", "Computer Use", "Tailwind CSS"],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "AI SDK",
+        "Computer Use",
+        "Tailwind CSS"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -275,7 +346,13 @@
       "description": "High-accuracy document text and tabular extraction engine. Leverages computer vision OCR algorithms and LLM parsing to convert document photos and scanned PDFs into clean structured data with per-page extraction analytics.",
       "image_url": "/projects/snaptext.webp",
       "project_type": "AI",
-      "technologies": ["Next.js", "TypeScript", "OCR", "LLM Parsing", "Document AI"],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "OCR",
+        "LLM Parsing",
+        "Document AI"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -289,8 +366,15 @@
       "title": "Platon Platform",
       "description": "Multi-tenant SaaS enterprise web platform developed for PT Metamesta Internasional Teknologi. Engineered responsive user interfaces, authentication architectures, relational database modeling with Prisma, and high-performance serverless cloud deployments.",
       "image_url": "/projects/platon.webp",
-      "project_type": "Web App",
-      "technologies": ["Next.js", "React", "Node.js", "Prisma", "Tailwind CSS", "Auth.js"],
+      "project_type": "Web",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "Prisma",
+        "Tailwind CSS",
+        "Auth.js"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -304,8 +388,14 @@
       "title": "Cirrust",
       "description": "Enterprise document management system (DMS) and automated workflow orchestration platform developed at PT Quadrant Synergy International. Engineered for high-volume document ingestion, secure indexing, and multi-tenant organizational workflow governance.",
       "image_url": "/projects/cirrust.webp",
-      "project_type": "Web App",
-      "technologies": ["C# .NET Core", "React", "TypeScript", "DMS", "Workflow Engine"],
+      "project_type": "Web",
+      "technologies": [
+        "C# .NET Core",
+        "React",
+        "TypeScript",
+        "DMS",
+        "Workflow Engine"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -319,8 +409,15 @@
       "title": "Berkat Karimar Mandiri (BKM) ERP",
       "description": "Comprehensive enterprise logistics, fleet dispatch, and industrial weighbridge management platform for PT Berkat Karimar Mandiri. Features automated gross/tare scale calculations, commodity shrinkage tracking (susut), delivery order verification, and field mobile companion app.",
       "image_url": "/projects/bkm.webp",
-      "project_type": "Web App",
-      "technologies": ["Next.js", "React", "Mantine", "Prisma", "PostgreSQL", "React Native"],
+      "project_type": "Web",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Mantine",
+        "Prisma",
+        "PostgreSQL",
+        "React Native"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -334,8 +431,14 @@
       "title": "Paragon Logistics & Sorting System",
       "description": "Industrial warehouse packing and batch sorting automation system for PT Paragon Technology and Innovation. Built for high-speed barcode scanning, automated packing lines, order batch monitoring, and local-to-cloud operational synchronization.",
       "image_url": "/projects/paragon.webp",
-      "project_type": "Web App",
-      "technologies": ["React", "Next.js", "Node.js", "AWS S3", "Warehouse Automation"],
+      "project_type": "Web",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "AWS S3",
+        "Warehouse Automation"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -349,8 +452,13 @@
       "title": "Khazanah Hijab",
       "description": "E-commerce web platform and digital storefront for modest fashion and hijab apparel. Features catalog browsing, shopping cart, secure checkout, and mobile-optimized storefront.",
       "image_url": "/projects/khazanah-hijab.webp",
-      "project_type": "Web App",
-      "technologies": ["Next.js", "React", "Tailwind CSS", "E-Commerce"],
+      "project_type": "Web",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "E-Commerce"
+      ],
       "demo_url": null,
       "github_url": "https://github.com/muhamad-rizki/khazanahhijab",
       "playstore_url": null,
@@ -364,8 +472,13 @@
       "title": "Manulife MiRecruit",
       "description": "Digital agent recruitment and onboarding mobile application for PT Asuransi Jiwa Manulife Indonesia. Features candidate tracking, background verification, document uploads, and native device bridging.",
       "image_url": "/projects/manulife.webp",
-      "project_type": "Mobile App",
-      "technologies": ["React Native", "Java", "Objective-C", "Swift"],
+      "project_type": "Mobile",
+      "technologies": [
+        "React Native",
+        "Java",
+        "Objective-C",
+        "Swift"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -379,8 +492,13 @@
       "title": "Peri Gigi Mobile App",
       "description": "Patient-facing mobile application for Peri Gigi Dental Clinic. Features patient appointment booking, doctor consultation scheduling, treatment record management, and automated clinic notifications.",
       "image_url": "/projects/perigigi.webp",
-      "project_type": "Mobile App",
-      "technologies": ["React Native", "React Navigation", "Bottom Sheet", "Async Storage"],
+      "project_type": "Mobile",
+      "technologies": [
+        "React Native",
+        "React Navigation",
+        "Bottom Sheet",
+        "Async Storage"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -394,8 +512,14 @@
       "title": "FMP Mobile Apps",
       "description": "Thermal receipt and invoice printing mobile application built with React Native. Connects seamlessly with Bluetooth and wireless ESC/POS thermal printers for fast, reliable transaction slip generation and receipt printing in point-of-sale environments.",
       "image_url": "/projects/fmp.webp",
-      "project_type": "Mobile App",
-      "technologies": ["React Native", "TypeScript", "Bluetooth", "ESC/POS", "Thermal Printing"],
+      "project_type": "Mobile",
+      "technologies": [
+        "React Native",
+        "TypeScript",
+        "Bluetooth",
+        "ESC/POS",
+        "Thermal Printing"
+      ],
       "demo_url": null,
       "github_url": "https://github.com/vesselsoft/fmp-mobile-apps",
       "playstore_url": null,
@@ -410,7 +534,14 @@
       "description": "High-performance AI backend orchestration service powering Korin AI. Manages multi-agent task routing, parallel web search synthesis, persistent room chat sessions, vector embeddings, and automated LMS course syllabus generation.",
       "image_url": "/projects/korin-backend.webp",
       "project_type": "Backend",
-      "technologies": ["Node.js", "TypeScript", "AI SDK", "Vector DB", "WebSocket", "REST API"],
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "AI SDK",
+        "Vector DB",
+        "WebSocket",
+        "REST API"
+      ],
       "demo_url": "https://korinai.com",
       "github_url": null,
       "playstore_url": null,
@@ -425,7 +556,15 @@
       "description": "Central suite of foundational developer frameworks, microservices, and security infrastructure engineered at PT Quadrant Synergy International. Powers mission-critical enterprise client platforms across banking, insurance, and logistics:\n\n• QSI Security & Identity Framework: Cryptographic token signing, JWT validation, multi-tenant RBAC/ABAC authorization, and enterprise SSO middleware.\n• QSI Dynamic FormData Engine: Extensible JSON Schema form compiler, hierarchical data validation, and polymorphic serialization.\n• QSI EventBus Messaging Service: Distributed event-driven pub/sub architecture built on MassTransit and RabbitMQ with transactional outbox and retry resilience.\n• QSI Indonesian Address Service: High-performance geospatial administrative hierarchy and postal code indexing service.\n• Mobile & Web Tooling: Custom React Native HTML layout renderer, native dual-platform image cropping, and self-hosted OTA updates.",
       "image_url": "/projects/qsi-frameworks.webp",
       "project_type": "Backend",
-      "technologies": ["C# .NET Core", "MassTransit", "RabbitMQ", "React Native", "JSON Schema", "Cryptography", "Microservices"],
+      "technologies": [
+        "C# .NET Core",
+        "MassTransit",
+        "RabbitMQ",
+        "React Native",
+        "JSON Schema",
+        "Cryptography",
+        "Microservices"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -440,7 +579,14 @@
       "description": "Cloud-deployed headless WhatsApp communication bridge connecting WhatsApp messaging directly to Korin AI's multi-agent conversational engine. Deployed on Fly.io with automated session persistence, QR authentication, and real-time webhook streaming.",
       "image_url": "/projects/whatsapp-korin.webp",
       "project_type": "Backend",
-      "technologies": ["Node.js", "TypeScript", "Puppeteer", "WAHA", "Fly.io", "Webhooks"],
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "Puppeteer",
+        "WAHA",
+        "Fly.io",
+        "Webhooks"
+      ],
       "demo_url": null,
       "github_url": null,
       "playstore_url": null,
@@ -454,8 +600,12 @@
       "title": "Printed.js",
       "description": "A modular TypeScript rewrite of legacy Paged.js. Provides publication-grade print styling, page breaks, running headers/footers, and high-fidelity browser PDF generation adhering to CSS Paged Media specifications.",
       "image_url": "/projects/printedjs.webp",
-      "project_type": "Open Source",
-      "technologies": ["TypeScript", "CSS Paged Media", "Print Layout"],
+      "project_type": "Web",
+      "technologies": [
+        "TypeScript",
+        "CSS Paged Media",
+        "Print Layout"
+      ],
       "demo_url": null,
       "github_url": "https://github.com/byrizki/printedjs",
       "playstore_url": null,
@@ -895,7 +1045,10 @@
       "credential_id": null,
       "url": "https://www.linkedin.com/learning/certificates/",
       "icon": "logos:linkedin-icon",
-      "skills": ["Career Management", "Software Development"]
+      "skills": [
+        "Career Management",
+        "Software Development"
+      ]
     }
   ]
 }
