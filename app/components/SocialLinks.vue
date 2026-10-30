@@ -31,6 +31,7 @@ const iconMap: Record<string, string> = {
   discord: "simple-icons:discord",
   telegram: "simple-icons:telegram",
   whatsapp: "simple-icons:whatsapp",
+  medium: "simple-icons:medium",
 };
 </script>
 

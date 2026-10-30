@@ -36,9 +36,9 @@
     },
     {
       "id": "4",
-      "platform": "WhatsApp",
-      "url": "https://wa.me/6289613604287",
-      "icon": "whatsapp",
+      "platform": "Medium",
+      "url": "https://medium.com/@byrizki",
+      "icon": "medium",
       "display_order": 4,
       "created_at": "2023-01-01T00:00:00Z"
     }
@@ -549,12 +549,6 @@
     {
       "id": "nextjs",
       "name": "Next.js",
-      "category": "Frontend",
-      "level": "Expert"
-    },
-    {
-      "id": "nuxt",
-      "name": "Nuxt",
       "category": "Frontend",
       "level": "Expert"
     },

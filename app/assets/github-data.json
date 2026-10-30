@@ -8,14 +8,14 @@
     "location": "Jakarta",
     "bio": "Contribute to open-source world and tinkering across the web & mobile stacks. Fueled by curiosity and coffee! ☕",
     "url": "https://github.com/byrizki",
-    "lastUpdated": "2026-10-30T04:18:02.300Z"
+    "lastUpdated": "2026-10-30T06:41:12.984Z"
   },
   "sources": {
     "github": {
       "username": "byrizki",
-      "contributions": 2737,
+      "contributions": 2739,
       "repositories": 178,
-      "stars": 100,
+      "stars": 105,
       "followers": 9
     },
     "gitlab": {
@@ -28,12 +28,12 @@
   },
   "stats": {
     "contributions": {
-      "value": 11363,
+      "value": 11365,
       "display": "11.4k",
-      "rawDisplay": "11,363",
+      "rawDisplay": "11,365",
       "trendPercent": 24,
       "label": "Contributions",
-      "subtitle": "GitHub (2737) + GitLab (8626)",
+      "subtitle": "GitHub (2739) + GitLab (8626)",
       "sparkline": [
         10,
         22,
@@ -63,8 +63,8 @@
       ]
     },
     "starsEarned": {
-      "value": 100,
-      "display": "100",
+      "value": 105,
+      "display": "105",
       "trendPercent": 25,
       "label": "Stars Earned",
       "sparkline": [
@@ -75,7 +75,7 @@
         20,
         25,
         28,
-        100
+        105
       ]
     },
     "followers": {
@@ -102,8 +102,8 @@
     }
   },
   "contributions": {
-    "totalLastYear": 11363,
-    "githubContributions": 2737,
+    "totalLastYear": 11365,
+    "githubContributions": 2739,
     "gitlabContributions": 8626,
     "weeks": [
       {
@@ -3270,10 +3270,10 @@
           },
           {
             "date": "2026-10-30",
-            "count": 0,
-            "githubCount": 0,
+            "count": 2,
+            "githubCount": 2,
             "gitlabCount": 0,
-            "level": 0,
+            "level": 1,
             "weekday": 5
           }
         ]
@@ -3337,7 +3337,7 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "percentage": 46,
+      "percentage": 46.1,
       "color": "#3178c6"
     },
     {
@@ -3362,7 +3362,7 @@
     },
     {
       "name": "Other",
-      "percentage": 17.4,
+      "percentage": 17.3,
       "color": "#8b949e",
       "otherLanguages": [
         "Java",
@@ -3380,19 +3380,19 @@
     "1": 2,
     "2": 11,
     "8": 2,
-    "9": 75,
+    "9": 80,
     "10": 0,
     "18": 1,
     "25": 0,
     "https://github.com/vesselsoft/react-native-android-shadow": 2,
     "https://github.com/vesselsoft/metro-minify-obfuscator": 11,
     "https://github.com/byrizki/jsoneval-rs": 2,
-    "https://github.com/byrizki/rusto-rs": 75,
+    "https://github.com/byrizki/rusto-rs": 80,
     "https://github.com/byrizki/madu-finance": 0,
     "vesselsoft/react-native-android-shadow": 2,
     "vesselsoft/metro-minify-obfuscator": 11,
     "byrizki/jsoneval-rs": 2,
-    "byrizki/rusto-rs": 75,
+    "byrizki/rusto-rs": 80,
     "byrizki/madu-finance": 0,
     "https://github.com/vesselsoft/fmp-mobile-apps": 0,
     "vesselsoft/fmp-mobile-apps": 0,
@@ -3403,19 +3403,19 @@
     "1": 0,
     "2": 1,
     "8": 0,
-    "9": 9,
+    "9": 10,
     "10": 0,
     "18": 0,
     "25": 0,
     "https://github.com/vesselsoft/react-native-android-shadow": 0,
     "https://github.com/vesselsoft/metro-minify-obfuscator": 1,
     "https://github.com/byrizki/jsoneval-rs": 0,
-    "https://github.com/byrizki/rusto-rs": 9,
+    "https://github.com/byrizki/rusto-rs": 10,
     "https://github.com/byrizki/madu-finance": 0,
     "vesselsoft/react-native-android-shadow": 0,
     "vesselsoft/metro-minify-obfuscator": 1,
     "byrizki/jsoneval-rs": 0,
-    "byrizki/rusto-rs": 9,
+    "byrizki/rusto-rs": 10,
     "byrizki/madu-finance": 0,
     "https://github.com/vesselsoft/fmp-mobile-apps": 0,
     "vesselsoft/fmp-mobile-apps": 0,
@@ -3424,7 +3424,7 @@
   },
   "streakAndTotal": {
     "longestStreakDays": 23,
-    "currentStreakDays": 1,
+    "currentStreakDays": 2,
     "activeDaysOfWeek": [
       true,
       true,
@@ -3434,7 +3434,7 @@
       true,
       true
     ],
-    "totalContributionsYear": 11363,
+    "totalContributionsYear": 11365,
     "monthlyBars": [
       15,
       15,
@@ -3451,6 +3451,6 @@
   "footer": {
     "quote": "First, solve the problem. Then, write the code.",
     "quoteAuthor": "John Johnson",
-    "lastUpdated": "2026-10-30T04:18:02.300Z"
+    "lastUpdated": "2026-10-30T06:41:12.984Z"
   }
 }
