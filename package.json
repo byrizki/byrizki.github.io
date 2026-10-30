@@ -27,6 +27,7 @@
     "@vite-pwa/nuxt": "^1.1.1",
     "@vueuse/core": "^15.0.0",
     "sass": "^1.106.1",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.3"
   }
 }

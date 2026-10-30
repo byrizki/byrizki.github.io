@@ -31,6 +31,20 @@ const forkCount = computed(() => getRepoForks(props.project.github_url));
 
 const categoryColor = computed(() => {
   const type = props.project.project_type.toLowerCase();
+  if (type === "ai" || type.includes("ai")) {
+    return {
+      bg: "bg-indigo-50 dark:bg-indigo-950/80",
+      text: "text-indigo-600 dark:text-indigo-400",
+      border: "border-indigo-200/80 dark:border-indigo-800/60",
+    };
+  }
+  if (type.includes("backend")) {
+    return {
+      bg: "bg-amber-50 dark:bg-amber-950/80",
+      text: "text-amber-600 dark:text-amber-400",
+      border: "border-amber-200/80 dark:border-amber-800/60",
+    };
+  }
   if (type.includes("mobile")) {
     return {
       bg: "bg-purple-50 dark:bg-purple-950/80",

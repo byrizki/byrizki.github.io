@@ -28,7 +28,7 @@ const searchQuery = ref("");
 const selectedProject = ref<Project | null>(null);
 const isDialogOpen = ref(false);
 
-const categories = ["All", "Web App", "Mobile App", "Open Source"];
+const categories = ["All", "Web App", "Mobile App", "AI", "Backend", "Open Source"];
 
 const getCategoryCount = (cat: string) => {
   if (cat === "All") return props.projects.length;
